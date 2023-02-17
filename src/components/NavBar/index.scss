@@ -1,4 +1,4 @@
-@import '../../App.scss';
+@import '../../styles/index.scss';
 
 .navbar {
   padding: 25px 95px;
@@ -6,6 +6,7 @@
   display: flex;
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif !important;
+  background-color: $light-green;
 }
 
 .brand {
@@ -22,6 +23,7 @@
 }
 
 .navbar-item:hover {
-color: $dark-green;
-border-bottom: 2px solid $dark-green;
+// color: $dark-green;
+// font-weight: 700;
+  box-shadow: inset 0 -5px 0 $dark-green;
 }
