@@ -1,0 +1,27 @@
+@import '../../App.scss';
+
+.navbar {
+  padding: 25px 95px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.brand {
+  text-decoration: none !important;
+}
+
+.navbar-item {
+  margin-left: 45px;
+  padding-bottom: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none !important;
+  color: $primary-color;
+}
+
+.navbar-item:hover {
+color: $dark-green;
+border-bottom: 2px solid $dark-green;
+}
