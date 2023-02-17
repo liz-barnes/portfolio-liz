@@ -1,6 +1,7 @@
 import { Link, NavLink } from 'react-router-dom'
 import './index.scss';
 
+// TODO: Make responsive -- hamburger menu
 export const NavBar = () => {
   return (
     <div className="navbar">
