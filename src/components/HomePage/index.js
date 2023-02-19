@@ -1,6 +1,7 @@
 import { NavBar } from "../NavBar"
 import './index.scss'
 import lizHeadshot from '../../images/liz-headshot.png'
+import { Footer } from "../Footer"
 // import landscape from '../../images/landscape.png';
 
 export const HomePage = () => {
@@ -62,6 +63,7 @@ export const HomePage = () => {
             </div>
 
         </div>
+        <Footer />
     </>
   )
 }
