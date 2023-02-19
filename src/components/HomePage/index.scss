@@ -56,19 +56,36 @@
     margin-top: -225px;
     display: flex;
     justify-content: center;
+    margin-bottom: 150px;
     .skills-card {
+        text-align: center;
         background-color: $light-green;
         height: fit-content;
         width: fit-content;
         padding: 35px 60px;
         margin-left: 15px;
         border-radius: 25px;
+        max-width: 25%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
         h5 {
             margin: 0;
             font-family: $secondary-font;
             font-weight: 100;
             font-size: $h5;
             letter-spacing: 0.25px;
+        }
+        h6 {
+            margin: 0;
+            padding-top: 65px;
+            font-size: $h6;
+            font-family: $primary-font;
+            font-weight: 500;
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            font-weight: 300;
         }
     }
 }
