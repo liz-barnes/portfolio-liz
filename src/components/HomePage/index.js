@@ -21,6 +21,12 @@ export const HomePage = () => {
 
         </div>
         <div className="skills">
+            <div className="skills-card">
+                <h5>Designer</h5>
+            </div>
+            <div className="skills-card">
+                <h5>Frontend Developer</h5>
+            </div>
 
         </div>
     </>

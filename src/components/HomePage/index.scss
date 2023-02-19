@@ -51,3 +51,24 @@
     }
   }
 }
+
+.skills {
+    margin-top: -225px;
+    display: flex;
+    justify-content: center;
+    .skills-card {
+        background-color: $light-green;
+        height: fit-content;
+        width: fit-content;
+        padding: 35px 60px;
+        margin-left: 15px;
+        border-radius: 25px;
+        h5 {
+            margin: 0;
+            font-family: $secondary-font;
+            font-weight: 100;
+            font-size: $h5;
+            letter-spacing: 0.25px;
+        }
+    }
+}
