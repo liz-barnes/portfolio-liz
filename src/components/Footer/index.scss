@@ -26,7 +26,7 @@
     margin: auto;
     height: 37px;
     color: $primary-color;
-    &.fa-envelope {
+    &.fa-envelope, &.fa-linkedin {
         height: 32px;
     }
   }
