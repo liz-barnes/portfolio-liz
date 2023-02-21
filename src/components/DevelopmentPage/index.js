@@ -1,5 +1,6 @@
 import { NavBar } from "../NavBar";
 import {Footer} from "../Footer";
+import './index.scss';
 
 const projects = [
     {
@@ -17,7 +18,14 @@ export const DevelopmentPage = () => {
     return (
         <div>
             <NavBar />
-            <h1>Development Page</h1>
+            <div className="projects">
+                {projects.map((proj) => (
+                    <div className="project-container">
+                        <h3>{proj.title}</h3>
+                        <h6>{proj.type}</h6>
+                    </div>
+                ))}
+            </div>
             <Footer />
         </div>
     )

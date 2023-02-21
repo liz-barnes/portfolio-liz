@@ -1,0 +1,21 @@
+@import '../../styles/index.scss';
+.projects {
+    margin: 145px 200px;
+}
+
+.project-container {
+    margin-bottom: 75px;
+}
+
+h3 {
+    font-family: $secondary-font;
+    font-size: $h3;
+    font-weight: 100;
+    margin: 0;
+}
+
+h6 {
+    font-size: $h6;
+    font-weight: 300;
+    margin: 0;
+}
