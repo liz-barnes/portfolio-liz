@@ -1,7 +1,7 @@
 @import '../../styles/index.scss';
 
 .footer {
-  height: 120px;
+//   height: 120px;
   background-color: $light-green;
 
   .socials {
@@ -29,6 +29,12 @@
     &.fa-envelope {
         height: 32px;
     }
+  }
+  .copywright {
+    text-align: center;
+    padding: 16px 0px;
+    margin: 0;
+
   }
 
 }

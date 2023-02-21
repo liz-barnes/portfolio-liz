@@ -14,7 +14,7 @@ export const Footer = () => {
           <FontAwesomeIcon className="icon" icon={faEnvelope} />
         </a>
       </div>
-      <p></p>
+      <p className='copywright'>© 2023 Liz Marie</p>
     </div>
   )
 }
