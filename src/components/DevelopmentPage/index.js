@@ -10,15 +10,15 @@ const projects = [
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. Curabitur sed accumsan felis. Donec sollicitudin mi non consectetur hendrerit. Aliquam erat volutpat. Etiam tortor leo, mattis sed tellus vitae, interdum vulputate orci.',
     githubLink: 'https://github.com/liz-barnes/portfolio-liz',
-    websiteLink: 'tyyiuoi',
+    websiteLink: 'https://lizmarie-portfolio.netlify.app',
   },
   {
     title: `Nashville 'Shine`,
     type: 'website',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. Curabitur sed accumsan felis. Donec sollicitudin mi non consectetur hendrerit. Aliquam erat volutpat. Etiam tortor leo, mattis sed tellus vitae, interdum vulputate orci.',
-    githubLink: '',
-    websiteLink: '',
+    githubLink: 'https://github.com/liz-barnes/nashville-shine-ultimate',
+    websiteLink: 'https://nashvilleshineultimate.netlify.app/',
   },
 ]
 export const DevelopmentPage = () => {
@@ -34,16 +34,17 @@ export const DevelopmentPage = () => {
               <div className="project-description">
                 <p>{proj.description}</p>
                 <div className="button-group">
-                  <Button onClick={() => console.warn('info')}>
+                  {/* TODO: Uncomment when project page is ready */}
+                  {/* <Button onClick={() => console.warn('info')}>
                     More Info
-                  </Button>
+                  </Button> */}
                   {proj.githubLink && (
                     <Button onClick={() => `${window.open(proj.githubLink)}`}>
                       Github Project
                     </Button>
                   )}
                   {proj.websiteLink && (
-                    <Button onClick={() => console.warn('site')}>
+                    <Button onClick={() => `${window.open(proj.websiteLink)}`}>
                       Visit Site
                     </Button>
                   )}
