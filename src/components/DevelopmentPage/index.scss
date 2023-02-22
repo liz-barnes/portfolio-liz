@@ -1,10 +1,13 @@
 @import '../../styles/index.scss';
 .projects {
-    margin: 145px 200px;
+    padding: 115px 150px;
 }
 
 .project-container {
     margin-bottom: 75px;
+}
+.project-content {
+    padding: 30px 50px;
 }
 
 h3 {
@@ -19,3 +22,16 @@ h6 {
     font-weight: 300;
     margin: 0;
 }
+
+.project-description {
+    display: none;
+  }
+
+  .project-container:hover {
+    background-color: $light-green;
+    border-radius: 25px;
+    .project-description {
+        display: block;
+        color: $primary-color;
+    }
+  }
