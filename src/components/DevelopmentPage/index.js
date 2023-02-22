@@ -34,9 +34,19 @@ export const DevelopmentPage = () => {
               <div className="project-description">
                 <p>{proj.description}</p>
                 <div className="button-group">
-                  <Button>More Info</Button>
-                  {proj.githubLink && <Button>Github Project</Button>}
-                  {proj.websiteLink && <Button>Visit Site</Button>}
+                  <Button onClick={() => console.warn('info')}>
+                    More Info
+                  </Button>
+                  {proj.githubLink && (
+                    <Button onClick={() => `${window.open(proj.githubLink)}`}>
+                      Github Project
+                    </Button>
+                  )}
+                  {proj.websiteLink && (
+                    <Button onClick={() => console.warn('site')}>
+                      Visit Site
+                    </Button>
+                  )}
                 </div>
               </div>
             </div>
