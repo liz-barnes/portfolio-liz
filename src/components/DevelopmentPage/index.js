@@ -33,9 +33,11 @@ export const DevelopmentPage = () => {
               <h6>{proj.type}</h6>
               <div className="project-description">
                 <p>{proj.description}</p>
-                <Button>More Info</Button>
-                {proj.githubLink && <Button>Github Project</Button>}
-                {proj.websiteLink && <Button>Visit Site</Button>}
+                <div className="button-group">
+                  <Button>More Info</Button>
+                  {proj.githubLink && <Button>Github Project</Button>}
+                  {proj.websiteLink && <Button>Visit Site</Button>}
+                </div>
               </div>
             </div>
           </div>
