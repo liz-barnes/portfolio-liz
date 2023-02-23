@@ -2,6 +2,9 @@
 
 .footer {
   background-color: $light-green;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 
   .socials {
     display: flex !important;
