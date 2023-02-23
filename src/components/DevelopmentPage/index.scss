@@ -21,7 +21,7 @@ h6 {
 }
 
 .project-description {
-//   display: none;
+  display: none;
   p {
     font-weight: 300;
   }
@@ -59,8 +59,10 @@ h6 {
 
 .tools-section{
     display: flex;
+    justify-content: center;
+    margin-top: 25px;
     strong {
-        margin-right: 15px;
+        margin-right: 5px;
     }
     .tools-icon {
         margin: 0px 5px;
