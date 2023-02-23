@@ -7,13 +7,13 @@ export const Footer = () => {
   return (
     <div className="footer">
       <div className="socials">
-        <a className="icon-link" href="/">
-          <FontAwesomeIcon className="icon" icon={faGithub} />
-        </a>
-        <a className="icon-link" href="/">
+        <a className="icon-link" href="https://www.linkedin.com/in/lizmbarnes/" target={"_blank"} rel="noreferrer">
           <FontAwesomeIcon className="icon" icon={faLinkedin} />
         </a>
-        <a className="icon-link" href="/">
+        <a className="icon-link" href="https://github.com/liz-barnes" target={"_blank"} rel="noreferrer">
+          <FontAwesomeIcon className="icon" icon={faGithub} />
+        </a>
+        <a className="icon-link" href="mailto:embarnes95@gmail.com">
           <FontAwesomeIcon className="icon" icon={faEnvelope} />
         </a>
       </div>
