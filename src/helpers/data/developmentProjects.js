@@ -1,4 +1,4 @@
-import {faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass } from '@fortawesome/free-brands-svg-icons'
+import {faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faCss3, faBootstrap } from '@fortawesome/free-brands-svg-icons'
 
 export const projects = [
   {
@@ -24,9 +24,11 @@ export const projects = [
     title: `Adventure Planner`,
     type: 'UX & Website Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. Curabitur sed accumsan felis. Donec sollicitudin mi non consectetur hendrerit. Aliquam erat volutpat. Etiam tortor leo, mattis sed tellus vitae, interdum vulputate orci.',
+      'This application was designed to allow users to view the National Park Service API data in a more modern, condensed, and user-friendly application. Users can search for a National Park, find hikes realted to that park, create a trip and save either park or hike to a trip!',
     githubLink: 'https://github.com/liz-barnes/front-end-capstone',
     websiteLink: 'https://adventure-planner-lb.netlify.app',
+    tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faCss3, faBootstrap]
+
   },
   {
     title: `Vanlife Sanity`,
