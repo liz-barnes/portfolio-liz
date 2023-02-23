@@ -13,7 +13,7 @@ export const Footer = () => {
         <a className="icon-link" href="/">
           <FontAwesomeIcon className="icon" icon={faLinkedin} />
         </a>
-        <a className="icon-link" href="/">
+        <a className="icon-link" href="mailto:embarnes95@gmail.com">
           <FontAwesomeIcon className="icon" icon={faEnvelope} />
         </a>
       </div>
