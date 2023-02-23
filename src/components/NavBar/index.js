@@ -17,6 +17,9 @@ export const NavBar = () => {
         <NavLink exact="true" className={'navbar-item'} to="/design">
           Design
         </NavLink>
+        <NavLink exact="true" className={'navbar-item'} to="/resume">
+          Resume
+        </NavLink>
       </div>
     </div>
   )
