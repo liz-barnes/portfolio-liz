@@ -17,11 +17,14 @@ export const DevelopmentPage = () => {
               <h6>{proj.type}</h6>
               <div className="project-description">
                 <p>{proj.description}</p>
-                <p className='tools-section'>
-                  <strong>Tools:</strong>
-                  {proj.tools &&
-                    proj.tools.map((p) => <FontAwesomeIcon className='tools-icon' icon={p} />)}
-                </p>
+                {proj.tools?.length && (
+                  <p className="tools-section">
+                    <strong>Tools:</strong>
+                    {proj.tools.map((p) => (
+                      <FontAwesomeIcon className="tools-icon" icon={p} />
+                    ))}
+                  </p>
+                )}
                 <div className="button-group">
                   {/* TODO: Uncomment when project page is ready */}
                   {/* <Button onClick={() => console.warn('info')}>
