@@ -1,14 +1,14 @@
-import {faReact, faFigma, faSquareJs, faFontAwesomeAlt } from '@fortawesome/free-brands-svg-icons'
+import {faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass } from '@fortawesome/free-brands-svg-icons'
 
 export const projects = [
   {
-    title: 'This Portfolio',
+    title: 'Portfolio',
     type: 'UX & Website Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. Curabitur sed accumsan felis. Donec sollicitudin mi non consectetur hendrerit. Aliquam erat volutpat. Etiam tortor leo, mattis sed tellus vitae, interdum vulputate orci.',
+      'This portfolio website was designed to show case my work, provide a place for others to learn more about me and reach out for sevices or collaboration.',
     githubLink: 'https://github.com/liz-barnes/portfolio-liz',
     websiteLink: 'https://lizmarie-portfolio.netlify.app',
-    tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt]
+    tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass]
   },
   {
     title: `Nashville 'Shine`,
