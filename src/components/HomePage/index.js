@@ -3,6 +3,7 @@ import './index.scss'
 import lizHeadshot from '../../images/liz-headshot.png'
 import { Footer } from "../Footer"
 // import landscape from '../../images/landscape.png';
+// import { Button } from "react-bootstrap"
 
 export const HomePage = () => {
   return (
@@ -23,6 +24,10 @@ export const HomePage = () => {
             <div className="intro">
                 <h3>Hello, I'm Liz</h3>
                 <p>I grew up in Tennessee and now reside in central Oregon. I live for the outdoors and building up my communities. I am an athlete, avid adventurer, feminist and a lifelong learner. My experience includes creating graphics, logos, UX / UI, wireframes and websites. I have written code remotely for tech companies, assisted a professional sports team with rebranding and created logos and graphics for startups.</p>
+                {/* Uncomment with contact button */}
+                {/* <div className="button-container">
+                    <Button>Reach out!</Button>
+                </div> */}
             </div>
 
         </div>
