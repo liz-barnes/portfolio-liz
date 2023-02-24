@@ -29,7 +29,7 @@ export const HomePage = () => {
         <div className="skills">
             <div className="skills-card">
                 <h5>Designer</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. </p>
+                <p>My passion first fixated on design while making graphics for my sports team in 2018. I value collaborating with my clients to understand their product and vision and bringing that vision to life.</p>
                 <h6>What I design:</h6>
                 <ul>
                     <li>Websites</li>
@@ -48,7 +48,7 @@ export const HomePage = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. </p>
                 <h6>Languages:</h6>
                 <ul>
-                    <li>JS</li>
+                    <li>Javascript</li>
                     <li>React</li>
                     <li>HTML</li>
                     <li>CSS / SASS</li>
