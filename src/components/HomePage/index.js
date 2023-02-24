@@ -32,6 +32,7 @@ export const HomePage = () => {
                 <p>My passion first fixated on design while making graphics for my sports team in 2018. I value collaborating with my clients to understand their product and vision and bringing that vision to life.</p>
                 <h6>What I design:</h6>
                 <ul>
+                    <li>UX / UI</li>
                     <li>Websites</li>
                     <li>Graphics</li>
                     <li>Logos</li>
@@ -41,6 +42,9 @@ export const HomePage = () => {
                 <h6>Tools:</h6>
                 <ul>
                     <li>Figma</li>
+                    <li>Pen & Paper</li>
+                    <li>WHITEBOARD</li>
+                    <li>Fotn Awesome</li>
                 </ul>
             </div>
             <div className="skills-card">
@@ -53,12 +57,17 @@ export const HomePage = () => {
                     <li>HTML</li>
                     <li>CSS / SASS</li>
                     <li>Typsescript</li>
+                    <li>Git</li>
                 </ul>
                 <h6>Tools:</h6>
                 <ul>
+                    <li>Github</li>
+                    <li>JIRA</li>
                     <li>VSCode</li>
                     <li>Postman</li>
                     <li>Figma</li>
+                    <li>Bootstrap</li>
+                    <li>Stack Overflow</li>
                 </ul>
             </div>
 
