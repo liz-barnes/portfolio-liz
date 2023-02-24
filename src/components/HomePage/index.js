@@ -22,7 +22,7 @@ export const HomePage = () => {
             </div>
             <div className="intro">
                 <h3>Hello, I'm Liz</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. Curabitur sed accumsan felis. Donec sollicitudin mi non consectetur hendrerit. Aliquam erat volutpat. Etiam tortor leo, mattis sed tellus vitae, interdum vulputate orci.</p>
+                <p>I grew up in Tennessee and now reside in central Oregon. I live for the outdoors and building up my communities. I am an athlete, avid adventurer, feminist and a lifelong learner. My experience includes creating graphics, logos, UX / UI, wireframes and websites. I have written code remotely for tech companies, assisted a professional sports team with rebranding and created logos and graphics for startups.</p>
             </div>
 
         </div>
