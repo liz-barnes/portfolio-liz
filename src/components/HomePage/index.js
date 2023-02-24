@@ -45,7 +45,7 @@ export const HomePage = () => {
             </div>
             <div className="skills-card">
                 <h5>Frontend Developer</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. </p>
+                <p>I enjoy visualizing an idea and bringing it to fruition. Coding gives me the opportunity to express my creativity, while meeting a challenge every step of the way.</p>
                 <h6>Languages:</h6>
                 <ul>
                     <li>Javascript</li>
