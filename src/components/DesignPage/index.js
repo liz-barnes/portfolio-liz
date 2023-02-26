@@ -1,27 +1,7 @@
 // import { Button } from 'react-bootstrap'
 import { Footer } from '../Footer'
 import { NavBar } from '../NavBar'
-
-const projects = [
-  {
-    title: `Nashville Nightshade`,
-    type: 'Sports Graphics & Social Media Content',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. Curabitur sed accumsan felis. Donec sollicitudin mi non consectetur hendrerit. Aliquam erat volutpat. Etiam tortor leo, mattis sed tellus vitae, interdum vulputate orci.',
-  },
-  {
-    title: `That Legendary Play`,
-    type: 'Company Graphics & Logo Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. Curabitur sed accumsan felis. Donec sollicitudin mi non consectetur hendrerit. Aliquam erat volutpat. Etiam tortor leo, mattis sed tellus vitae, interdum vulputate orci.',
-  },
-  {
-    title: `The Rodgers Group`,
-    type: 'Logo Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. Curabitur sed accumsan felis. Donec sollicitudin mi non consectetur hendrerit. Aliquam erat volutpat. Etiam tortor leo, mattis sed tellus vitae, interdum vulputate orci.',
-  },
-]
+import projects from '../../helpers/data/designProjects';
 
 export const DesignPage = () => {
   return (
@@ -34,7 +14,8 @@ export const DesignPage = () => {
               <h3>{proj.title}</h3>
               <h6>{proj.type}</h6>
               <div className="project-description">
-                <p>{proj.description}</p>
+              {proj.company?.length && <p><strong>Who: </strong>{proj.company}</p>}
+                <p>{proj.company?.length && <strong>What: </strong>}{proj.description}</p>
                 <div className="button-group">
                   {/* TODO: Uncomment when project page is ready */}
                   {/* <Button onClick={() => console.warn('info')}>

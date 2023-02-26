@@ -56,3 +56,15 @@ h6 {
     cursor: pointer;
   }
 }
+
+.tools-section{
+    display: flex;
+    margin-top: 25px;
+    strong {
+        margin-right: 5px;
+    }
+    .tools-icon {
+        margin: 0px 5px;
+        font-size: 20px;
+    }
+}
