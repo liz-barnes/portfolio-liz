@@ -15,9 +15,9 @@ export const NavBar = () => {
         </Link>
       </div>
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
-        {menuOpen ? <FontAwesomeIcon icon={faBars} /> : <FontAwesomeIcon icon={faXmark} />}
+        {menuOpen ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} />}
       </div>
-      <div className="nav">
+      <div className={menuOpen ? 'nav-active' : 'nav'}>
         <NavLink exact="true" className={'navbar-item'} to="/development">
           Development
         </NavLink>
