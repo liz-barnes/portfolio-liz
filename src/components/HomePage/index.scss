@@ -209,3 +209,24 @@
     }
   }
 }
+
+@media screen and (max-width: 360px) {
+  .bio {
+    padding-top: 65px !important;
+    .intro {
+      max-width: 80% !important;
+    }
+  }
+  .skills {
+    margin-top: -140px;
+    .skills-card {
+      h6 {
+        padding-top: 35px;
+      }
+      p,
+      li {
+        font-size: 16px;
+      }
+    }
+  }
+}
