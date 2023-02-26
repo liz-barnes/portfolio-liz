@@ -14,8 +14,8 @@ export const DesignPage = () => {
               <h3>{proj.title}</h3>
               <h6>{proj.type}</h6>
               <div className="project-description">
-                <p><strong>Who:</strong> {proj.company}</p>
-                <p><strong>What:</strong> {proj.description}</p>
+              {proj.company?.length && <p><strong>Who: </strong>{proj.company}</p>}
+                <p>{proj.company?.length && <strong>What: </strong>}{proj.description}</p>
                 <div className="button-group">
                   {/* TODO: Uncomment when project page is ready */}
                   {/* <Button onClick={() => console.warn('info')}>
