@@ -28,17 +28,16 @@
     margin: auto;
     height: 37px;
     color: $primary-color;
-    &.fa-envelope, &.fa-linkedin {
-        height: 32px;
+    &.fa-envelope,
+    &.fa-linkedin {
+      height: 32px;
     }
   }
   .copyright {
     text-align: center;
     padding: 16px 0px;
     margin: 0;
-
   }
-
 }
 
 @media screen and (max-width: 660px) {
@@ -47,27 +46,15 @@
   }
   .icon-link {
     margin: 0px 0.2rem !important;
-    // background-color: transparent;
-    // border-radius: 100%;
     height: 35px !important;
     width: 35px !important;
-    // border: 2px solid $dark-green;
-    // justify-content: space-around;
-    // display: flex;
   }
   .icon {
-    // margin: auto;
     height: 25px !important;
-    // color: $primary-color;
-    // &.fa-envelope, &.fa-linkedin {
-    //     height: 30px;
-    // }
   }
   .copyright {
     text-align: center;
     padding: 7px 0px 15px !important;
     margin: 0;
-
   }
-
 }
