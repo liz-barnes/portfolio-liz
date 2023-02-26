@@ -5,7 +5,7 @@ export const projects = [
     title: 'Portfolio',
     type: 'UX & Website Design',
     description:
-      'This portfolio website was designed to show case my work, provide a place for others to learn more about me and reach out for sevices or collaboration.',
+      'This portfolio website was designed to show case my work and provide a place for others to learn more about me and reach out for job opportunities, sevices or collaboration.',
     githubLink: 'https://github.com/liz-barnes/portfolio-liz',
     websiteLink: 'https://lizmarie-portfolio.netlify.app',
     tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass]
@@ -14,7 +14,7 @@ export const projects = [
     title: `Nashville 'Shine`,
     type: 'UX & Website Design',
     description:
-      `Nashville 'Shine is a Mixed Ultimate Frisbee Club. My objective was to create a website that promotes visibility for 'Shine, increase team and player awareness, showcase personality, improve online presence with a modern website design.`,
+      `Nashville 'Shine is a Mixed Ultimate Frisbee Club. My objective was to create a website that promotes visibility for 'Shine, increase team and player awareness, showcase personality, and improve online presence with a modern website design.`,
     githubLink: 'https://github.com/liz-barnes/nashville-shine-ultimate',
     websiteLink: 'https://nashvilleshineultimate.netlify.app/',
     tools: [faReact, faFigma, faSquareJs, faSass]
