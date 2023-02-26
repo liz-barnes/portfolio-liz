@@ -37,3 +37,19 @@
 // font-weight: 700;
   box-shadow: inset 0 -8px 0 $dark-green;
 }
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px){
+  .nav {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    top: 0;
+    right: 0;
+  }
+  
+}
