@@ -2,6 +2,16 @@ import {faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faCss3, faBootst
 
 export const projects = [
   {
+    title: 'Built Technologies',
+    type: 'Full Stack Software Engineer',
+    company: 'Built Technologies is the leading provider of construction finance technology. ',
+    description:
+      'I developed and maintained user-friendly and efficient front-end applications using React and TypeScript. I worked closely with cross-functional teams to gather requirements and implement features.',
+    githubLink: 'https://github.com/liz-barnes/portfolio-liz',
+    websiteLink: 'https://lizmarie-portfolio.netlify.app',
+    tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass]
+  },
+  {
     title: 'Portfolio',
     type: 'UX & Website Design',
     description:
@@ -13,8 +23,9 @@ export const projects = [
   {
     title: `Nashville 'Shine`,
     type: 'UX & Website Design',
+    company: `Nashville 'Shine is a Mixed Ultimate Frisbee Club.`,
     description:
-      `Nashville 'Shine is a Mixed Ultimate Frisbee Club. My objective was to create a website that promotes visibility for 'Shine, increase team and player awareness, showcase personality, and improve online presence with a modern website design.`,
+      `My objective was to create a website that promotes visibility for 'Shine, increases team and player awareness, showcases personality, and improves online presence with a modern website design.`,
     
     githubLink: 'https://github.com/liz-barnes/nashville-shine-ultimate',
     websiteLink: 'https://nashvilleshineultimate.netlify.app/',
