@@ -8,7 +8,6 @@
   font-family: 'Montserrat', sans-serif !important;
   background-color: $light-green;
   align-items: center;
-
 }
 
 .brand {
@@ -32,17 +31,15 @@
   color: $primary-color;
 }
 
-@media screen and (min-width: 961px){
-
+@media screen and (min-width: 961px) {
   .navbar-item:hover {
-  box-shadow: inset 0 -8px 0 $dark-green;
-
+    box-shadow: inset 0 -8px 0 $dark-green;
   }
 }
 
 .brand:hover {
-// color: $dark-green;
-// font-weight: 700;
+  // color: $dark-green;
+  // font-weight: 700;
   box-shadow: inset 0 -8px 0 $dark-green;
 }
 
@@ -50,10 +47,7 @@
   display: none;
 }
 
-@media screen and (max-width: 960px){
-  .navbar {
-    position: relative;
-  }
+@media screen and (max-width: 960px) {
   .nav {
     display: none;
   }
@@ -75,7 +69,6 @@
     a:nth-child(even) {
       border-bottom: 1px dotted $dark-green;
       border-top: 1px dotted $dark-green;
-
     }
   }
   .navbar-item {
@@ -93,5 +86,14 @@
     right: 0;
     z-index: 1;
   }
-  
+}
+
+@media screen and (max-width: 660px) {
+  .navbar {
+    padding: 25px calc(25px + 3vw);
+  }
+
+  .nav-active {
+    margin-right: 20px;
+  }
 }
