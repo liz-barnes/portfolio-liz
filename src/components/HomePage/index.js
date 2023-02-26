@@ -29,7 +29,6 @@ export const HomePage = () => {
                     <Button>Reach out!</Button>
                 </div> */}
             </div>
-
         </div>
         <div className="skills">
             <div className="skills-card">
