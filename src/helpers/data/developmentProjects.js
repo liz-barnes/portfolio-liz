@@ -15,6 +15,7 @@ export const projects = [
     type: 'UX & Website Design',
     description:
       `Nashville 'Shine is a Mixed Ultimate Frisbee Club. My objective was to create a website that promotes visibility for 'Shine, increase team and player awareness, showcase personality, and improve online presence with a modern website design.`,
+    
     githubLink: 'https://github.com/liz-barnes/nashville-shine-ultimate',
     websiteLink: 'https://nashvilleshineultimate.netlify.app/',
     tools: [faReact, faFigma, faSquareJs, faSass]

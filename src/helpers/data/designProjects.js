@@ -2,14 +2,16 @@ const projects = [
   {
     title: `Nashville Nightshade`,
     type: 'Sports Graphics & Social Media Content',
+    company: `Nashville Nightshade is a womxn's professional ultimate frisbee team.`,
     description:
-      `Nashville Nightshade is a womxn's professional ultimate frisbee team. I created graphics to highlight player stats and social media content including game announcements, tryout information, and open positions.`,
-  },
+      `I assisted with rebranding, designed graphics to highlight player stats, and created social media content for game announcements, tryout information, and open positions.`,
+    },
   {
     title: `That Legendary Play`,
     type: 'Company Graphics & Logo Design',
+    company: 'That Legendary Play is a sports print retailer that offers prints and other media displaying legendary sports plays and diagrams.',
     description:
-      'That Legendary Play is a sports print retailer that offers prints and other media displaying legendary sports plays and diagrams. I designed their logo and layout for their graphics. I created their initial handful of graphics representing unforgettable plays in football.',
+      'I designed their logo and layout for their graphics. I created their initial handful of graphics representing unforgettable plays in football.',
   },
   {
     title: `The Rodgers Group`,
