@@ -30,3 +30,26 @@ h5 {
 .pdf-link:hover {
   background-color: $light-green;
 }
+
+@media screen and (max-width: 850px) {
+  .resume-page {
+    margin: 115px 75px;
+  }
+  h5 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .resume-page {
+    margin: 115px 35px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+
+  .pdf-link {
+    padding: 10px 15px !important;
+    font-size: 15px !important;
+  }
+}
