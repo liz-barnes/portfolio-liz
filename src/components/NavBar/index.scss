@@ -90,7 +90,10 @@
 
 @media screen and (max-width: 660px) {
   .navbar {
-    padding: 25px calc(25px + 3vw);
+    padding: 15px calc(25px + 3vw);
+    .brand {
+      font-size: 22px;
+    }
   }
 
   .nav-active {
