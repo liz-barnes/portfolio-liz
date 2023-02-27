@@ -6,18 +6,39 @@ import projects from '../../helpers/data/developmentProjects'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const DevelopmentPage = () => {
+  /* Storing user's device details in a variable*/
+  let details = navigator.userAgent
+
+  /* Creating a regular expression containing some mobile devices keywords to search it in details string*/
+  let regexp = /android|iphone|kindle|ipad/i
+
+  /* Using test() method to search regexp in details it returns boolean value*/
+  let isMobileDevice = regexp.test(details)
+
   return (
     <div>
       <NavBar />
       <div className="projects">
         {projects.map((proj) => (
-          <div className="project-container">
+          <div
+            className={
+              isMobileDevice ? 'mobile-project-container' : 'project-container'
+            }
+          >
             <div className="project-content">
               <h3>{proj.title}</h3>
               <h6>{proj.type}</h6>
               <div className="project-description">
-                {proj.company?.length && <p><strong>Who: </strong>{proj.company}</p>}
-                <p>{proj.company?.length && <strong>What: </strong>}{proj.description}</p>
+                {proj.company?.length && (
+                  <p>
+                    <strong>Who: </strong>
+                    {proj.company}
+                  </p>
+                )}
+                <p>
+                  {proj.company?.length && <strong>What: </strong>}
+                  {proj.description}
+                </p>
                 {proj.tools?.length && (
                   <p className="tools-section">
                     <strong>Tools:</strong>
