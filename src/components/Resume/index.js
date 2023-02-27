@@ -19,7 +19,7 @@ export const Resume = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Click here to view/download my resume!
+            View Resume
           </a>
         </div>
       </div>

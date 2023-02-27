@@ -28,15 +28,33 @@
     margin: auto;
     height: 37px;
     color: $primary-color;
-    &.fa-envelope, &.fa-linkedin {
-        height: 32px;
+    &.fa-envelope,
+    &.fa-linkedin {
+      height: 32px;
     }
   }
   .copyright {
     text-align: center;
     padding: 16px 0px;
     margin: 0;
-
   }
+}
 
+@media screen and (max-width: 660px) {
+  .socials {
+    padding-top: 20px !important;
+  }
+  .icon-link {
+    margin: 0px 0.2rem !important;
+    height: 35px !important;
+    width: 35px !important;
+  }
+  .icon {
+    height: 25px !important;
+  }
+  .copyright {
+    text-align: center;
+    padding: 7px 0px 15px !important;
+    margin: 0;
+  }
 }

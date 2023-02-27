@@ -8,7 +8,6 @@
   font-family: 'Montserrat', sans-serif !important;
   background-color: $light-green;
   align-items: center;
-
 }
 
 .brand {
@@ -32,8 +31,72 @@
   color: $primary-color;
 }
 
-.navbar-item:hover, .brand:hover {
-// color: $dark-green;
-// font-weight: 700;
+@media screen and (min-width: 961px) {
+  .navbar-item:hover {
+    box-shadow: inset 0 -8px 0 $dark-green;
+  }
+}
+
+.brand:hover {
+  // color: $dark-green;
+  // font-weight: 700;
   box-shadow: inset 0 -8px 0 $dark-green;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .nav {
+    display: none;
+  }
+  .nav-active {
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    position: absolute;
+    top: 22px;
+    right: 0;
+    background-color: white;
+    transition: all 0.5s ease;
+    margin-right: 75px;
+    text-align: right;
+    padding: 33px 20px 25px 30px;
+    border: 1px dotted $dark-green;
+    box-shadow: 3px 3px 0 rgba(224, 224, 224, 0.136);
+    border-radius: 5px;
+    a:nth-child(even) {
+      border-bottom: 1px dotted $dark-green;
+      border-top: 1px dotted $dark-green;
+    }
+  }
+  .navbar-item {
+    margin: 0;
+    padding: 5px;
+  }
+
+  .navbar-item:hover {
+    border-right: 5px solid $dark-green;
+  }
+
+  .menu-icon {
+    display: block;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .navbar {
+    padding: 15px calc(25px + 3vw);
+    .brand {
+      font-size: 22px;
+    }
+  }
+
+  .nav-active {
+    margin-right: 20px;
+  }
 }
