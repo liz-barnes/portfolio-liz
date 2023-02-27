@@ -2,7 +2,7 @@ import { NavBar } from "../NavBar"
 import './index.scss'
 import lizHeadshot from '../../images/liz-headshot.png'
 import { Footer } from "../Footer"
-// import landscape from '../../images/landscape.png';
+import landscape from '../../images/landscape-vector.png';
 // import { Button } from "react-bootstrap"
 
 export const HomePage = () => {
@@ -12,10 +12,9 @@ export const HomePage = () => {
         <div className='banner'>
             <h1>Designer & Frontend Developer</h1>
             <p>I'm all about the visuals –– let's build something beautiful together</p>
-            {/* Uncomment for landscape banner */}
-            {/* <div className="image-container"> */}
-                {/* <img src={landscape} alt='landscape design'/> */}
-            {/* </div> */}
+            <div className="image-container">
+                <img src={landscape} alt='landscape design'/>
+            </div>
         </div>
         <div className="bio">
             <div className="headshot">
