@@ -22,7 +22,7 @@ export const HomePage = () => {
             </div>
             <div className="intro">
                 <h3>Hello, I'm Liz</h3>
-                <p>I grew up in Tennessee and now reside in central Oregon. I live for the outdoors and building up my communities. I am an athlete, avid adventurer, and a lifelong learner. My experience includes creating graphics, logos, UX / UI, wireframes and websites. I have written code remotely for tech companies, assisted a professional sports team with rebranding and content, and created logos and graphics for startups.</p>
+                <p>I grew up in Tennessee and now reside in central Oregon. I live for the outdoors and building up my communities. I am an athlete, avid adventurer, and a lifelong learner. My experience includes creating graphics, logos, UX / UI, wireframes and websites. I have written code remotely for tech companies, assisted a professional sports team with rebranding and content, and designed logos and graphics for startups.</p>
                 {/* Uncomment with contact button */}
                 {/* <div className="button-container">
                     <Button>Reach out!</Button>
