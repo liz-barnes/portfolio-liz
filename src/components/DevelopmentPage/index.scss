@@ -96,6 +96,9 @@ h6 {
 }
 
 .mobile-project-container {
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  margin-bottom: 50px;
   .project-description {
     display: block;
   }
@@ -109,9 +112,6 @@ h6 {
     font-size: 16px;
   }
   .button-group {
-    border: 1px solid lightgray;
-    border-radius: 25px;
-    margin-bottom: 50px;
     button:nth-child(odd) {
       border-bottom-right-radius: 0px;
       border-top-right-radius: 0px;
