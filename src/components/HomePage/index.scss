@@ -1,5 +1,11 @@
 @import '../../styles/index.scss';
 
+.home-page {
+  .navbar {
+    background-color: transparent;
+  }
+}
+
 .banner {
   max-height: calc(100vh - 200px);
   text-align: center;
