@@ -19,11 +19,12 @@ export const DevelopmentPage = () => {
     <div>
       <NavBar />
       <div className="projects">
-        {projects.map((proj) => (
+        {projects.map((proj, i) => (
           <div
             className={
               isMobileDevice ? 'mobile-project-container' : 'project-container'
             }
+            key={i}
           >
             <div className="project-content">
               <h3>{proj.title}</h3>
