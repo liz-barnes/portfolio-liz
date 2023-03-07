@@ -8,7 +8,6 @@
   font-family: 'Montserrat', sans-serif !important;
   background-color: $light-green;
   align-items: center;
-
 }
 
 .brand {
@@ -21,19 +20,88 @@
 
 .nav {
   align-content: center;
+  .navbar-item.active {
+      border-bottom: solid 2px $dark-green;
+  }
 }
 
 .navbar-item {
   margin-left: 45px;
-  // padding-bottom: 25px;
   font-size: 15px;
   font-weight: 400;
   text-decoration: none !important;
   color: $primary-color;
 }
 
-.navbar-item:hover, .brand:hover {
-// color: $dark-green;
-// font-weight: 700;
+@media screen and (min-width: 961px) {
+  .navbar-item:hover {
+    box-shadow: inset 0 -8px 0 $dark-green;
+  }
+}
+
+.brand:hover {
   box-shadow: inset 0 -8px 0 $dark-green;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .nav {
+    display: none;
+  }
+  .nav-active {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    height: 75px;
+    position: absolute;
+    top: 22px;
+    right: 0;
+    background-color: white;
+    transition: all 0.5s ease;
+    margin-right: 75px;
+    text-align: right;
+    padding: 33px 20px 25px 30px;
+    border: 1px solid $light-gray;
+    box-shadow: 3px 3px 0 rgba(224, 224, 224, 0.136);
+    border-radius: 5px;
+    a:nth-child(even) {
+      border-top: 0.5px solid $light-gray;
+      border-bottom: 0.5px solid $light-gray;
+    }
+  }
+  .navbar-item {
+    margin: 0;
+    padding: 5px;
+    &.active {
+      color: $dark-green;
+    }
+  }
+
+  .navbar-item:hover {
+    border-right: 5px solid $dark-green;
+  }
+
+  .menu-icon {
+    display: block;
+    top: 0;
+    right: 0;
+    z-index: 3;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .navbar {
+    padding: 15px calc(25px + 3vw);
+    .brand {
+      font-size: 22px;
+    }
+  }
+
+  .nav-active {
+    margin-right: 20px;
+    top: 10px;
+  }
 }

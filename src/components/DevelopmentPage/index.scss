@@ -1,0 +1,137 @@
+@import '../../styles/index.scss';
+.projects {
+  padding: 75px 150px 200px 150px;
+}
+
+.project-content {
+  padding: 30px 50px;
+}
+
+h3 {
+  font-family: $secondary-font;
+  font-size: $h3;
+  font-weight: 100;
+  margin: 0;
+}
+
+h6 {
+  font-size: $h6;
+  font-weight: 300;
+  margin: 0;
+}
+
+.project-description {
+  display: none;
+  p {
+    font-weight: 300;
+  }
+}
+
+.project-container:hover {
+  background-color: $light-green;
+  border-radius: 25px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+  .project-description {
+    display: block;
+    color: $primary-color;
+  }
+}
+
+.button-group {
+  text-align: center;
+  padding-top: 30px;
+  Button {
+    font-family: $primary-font;
+    padding: 15px 22px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border: solid 2px $beige;
+    color: $beige;
+    background-color: $dark-green;
+    font-size: 16px;
+  }
+
+  Button:hover {
+    background-color: $light-green;
+    cursor: pointer;
+  }
+}
+
+.tools-section {
+  display: flex;
+  margin-top: 25px;
+  strong {
+    margin-right: 5px;
+  }
+  .tools-icon {
+    margin: 0px 5px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .projects {
+    padding: 75px 75px 200px 75px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .projects {
+    padding: 75px 45px 200px 45px;
+  }
+
+  Button {
+    padding: 15px 10px !important;
+    justify-content: space-between;
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .projects {
+    padding: 75px 15px 200px 15px;
+  }
+  .project-content {
+    padding: 30px 35px;
+  }
+}
+
+.mobile-project-container {
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  .project-description {
+    display: block;
+  }
+  h3 {
+    font-size: 24px !important;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .button-group {
+    button:nth-child(odd) {
+      border-bottom-right-radius: 0px;
+      border-top-right-radius: 0px;
+    }
+    button:nth-child(even) {
+      border-bottom-left-radius: 0px;
+      border-top-left-radius: 0px;
+    }
+
+    button {
+      font-size: 15px;
+      background-color: transparent;
+      color: $primary-color;
+      border: 1px solid $light-gray;
+      padding: 7px !important;
+      margin: 0 !important;
+    }
+  }
+}
+
+.tbd {
+  text-align: center;
+}

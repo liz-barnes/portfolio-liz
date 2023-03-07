@@ -1,0 +1,55 @@
+@import '../../styles/index.scss';
+
+.resume-page {
+  text-align: center;
+  margin: 115px 150px;
+}
+
+h5 {
+  font-family: $primary-font;
+  font-weight: 500;
+  font-size: $h5;
+}
+
+.pdf-button-container {
+  margin-top: 50px;
+}
+
+.pdf-link {
+  font-family: $primary-font;
+  padding: 15px 22px;
+  margin: 0px 10px;
+  border-radius: 10px;
+  border: solid 2px $light-green;
+  color: $beige;
+  background-color: $dark-green;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.pdf-link:hover {
+  background-color: $light-green;
+}
+
+@media screen and (max-width: 850px) {
+  .resume-page {
+    margin: 115px 75px;
+  }
+  h5 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .resume-page {
+    margin: 115px 35px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+
+  .pdf-link {
+    padding: 10px 15px !important;
+    font-size: 15px !important;
+  }
+}
