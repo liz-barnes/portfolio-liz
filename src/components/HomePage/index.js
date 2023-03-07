@@ -7,7 +7,7 @@ import landscape from '../../images/landscape-vector.png';
 
 export const HomePage = () => {
   return (
-    <>
+    <div className="home-page">
         <NavBar/>
         <div className='banner'>
             <h1>Designer & Frontend Developer</h1>
@@ -76,6 +76,6 @@ export const HomePage = () => {
 
         </div>
         <Footer />
-    </>
+    </div>
   )
 }
