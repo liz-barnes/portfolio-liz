@@ -7,8 +7,6 @@ export const projects = [
     company: 'Built Technologies is the leading provider of construction finance technology. ',
     description:
       'I developed and maintained user-friendly and efficient front-end applications using React and TypeScript. I worked closely with cross-functional teams to gather requirements and implement features.',
-    githubLink: 'https://github.com/liz-barnes/portfolio-liz',
-    websiteLink: 'https://lizmarie-portfolio.netlify.app',
     tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass]
   },
   {
@@ -17,7 +15,7 @@ export const projects = [
     description:
       'This portfolio website was designed to show case my work and provide a place for others to learn more about me and reach out for job opportunities, sevices or collaboration.',
     githubLink: 'https://github.com/liz-barnes/portfolio-liz',
-    websiteLink: 'https://lizmarie-portfolio.netlify.app',
+    // websiteLink: 'https://lizmarie-portfolio.netlify.app',
     tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass]
   },
   {
@@ -42,14 +40,14 @@ export const projects = [
     tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faCss3, faBootstrap]
 
   },
-  {
-    title: `Vanlife Sanity`,
-    type: 'UX & Website Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. Curabitur sed accumsan felis. Donec sollicitudin mi non consectetur hendrerit. Aliquam erat volutpat. Etiam tortor leo, mattis sed tellus vitae, interdum vulputate orci.',
-    githubLink: 'https://github.com/liz-barnes/backend-capstone2.0',
-    websiteLink: 'https://vanlife-sanity.netlify.app',
-  },
+  // {
+  //   title: `Vanlife Sanity`,
+  //   type: 'UX & Website Design',
+  //   description:
+  //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. Curabitur sed accumsan felis. Donec sollicitudin mi non consectetur hendrerit. Aliquam erat volutpat. Etiam tortor leo, mattis sed tellus vitae, interdum vulputate orci.',
+  //   githubLink: 'https://github.com/liz-barnes/backend-capstone2.0',
+  //   websiteLink: 'https://vanlife-sanity.netlify.app',
+  // },
 ];
 
 export default projects;
