@@ -4,6 +4,7 @@ import { HomePage } from './components/HomePage'
 import { DevelopmentPage } from './components/DevelopmentPage'
 import { DesignPage } from './components/DesignPage'
 import { Resume } from './components/Resume'
+import { DesignProject } from './components/DesignProject'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/development" element={<DevelopmentPage />} />
           <Route path="/design" element={<DesignPage />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/projectName" element={<DesignProject />} />
         </Routes>
       </div>
     </>

@@ -1,25 +1,26 @@
-// import { Button } from 'react-bootstrap'
+import { Button } from 'react-bootstrap'
 import { Footer } from '../Footer'
 import { NavBar } from '../NavBar'
-// import projects from '../../helpers/data/designProjects'
+import projects from '../../helpers/data/designProjects'
+import { Link } from 'react-router-dom'
 
 export const DesignPage = () => {
-  // /* Storing user's device details in a variable*/
-  // let details = navigator.userAgent
+  /* Storing user's device details in a variable*/
+  let details = navigator.userAgent
 
-  // /* Creating a regular expression containing some mobile devices keywords to search it in details string*/
-  // let regexp = /android|iphone|kindle|ipad/i
+  /* Creating a regular expression containing some mobile devices keywords to search it in details string*/
+  let regexp = /android|iphone|kindle|ipad/i
 
-  // /* Using test() method to search regexp in details it returns boolean value*/
-  // let isMobileDevice = regexp.test(details)
+  /* Using test() method to search regexp in details it returns boolean value*/
+  let isMobileDevice = regexp.test(details)
 
   return (
     <>
       <NavBar />
-      <div>
+      {/* <div>
         <h5 className='tbd'>Design work will be uploaded soon! {`:)`}</h5>
-      </div>
-      {/* <div className="projects">
+      </div> */}
+      <div className="projects">
         {projects.map((proj) => (
           <div
             className={
@@ -42,15 +43,17 @@ export const DesignPage = () => {
                 </p>
                 <div className="button-group">
                   {/* TODO: Uncomment when project page is ready */}
-                  {/* <Button onClick={() => console.warn('info')}>
+                  <Link className="" to="/projectName">
+                  <Button onClick={() => console.warn('info')}>
                     View Designs
-                  </Button> */}
-                {/* </div>
+                  </Button>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         ))}
-      </div> */}
+      </div>
       <Footer />
     </>
   )
