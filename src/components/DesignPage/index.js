@@ -21,11 +21,12 @@ export const DesignPage = () => {
         <h5 className='tbd'>Design work will be uploaded soon! {`:)`}</h5>
       </div> */}
       <div className="projects">
-        {projects.map((proj) => (
+        {projects.map((proj, i) => (
           <div
             className={
               isMobileDevice ? 'mobile-project-container' : 'project-container'
             }
+            key={i}
           >
             <div className="project-content">
               <h3>{proj.title}</h3>
