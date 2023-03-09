@@ -43,10 +43,10 @@ export const DesignPage = () => {
                 </p>
                 <div className="button-group">
                   {/* TODO: Uncomment when project page is ready */}
-                  <Link className="" to="/projectName">
-                  <Button onClick={() => console.warn('info')}>
-                    View Designs
-                  </Button>
+                  <Link className="" to="/projectName" state={proj}>
+                    <Button onClick={() => console.warn('info')}>
+                      View Designs
+                    </Button>
                   </Link>
                 </div>
               </div>
