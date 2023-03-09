@@ -1,7 +1,8 @@
 @import '../../styles/index.scss';
 
 .design-project-page {
-  margin: 30px 175px;
+  margin: 30px 175px 0px 175px;
+  padding-bottom: 200px;
   h1 {
     font-family: $secondary-font;
     font-weight: 100;
@@ -19,12 +20,15 @@
     display: flex;
     margin: auto;
     justify-content: space-around;
-    max-width: 75%;
+    flex-wrap: wrap;
+    max-width: 80%;
+    padding-bottom: 15px;
     img {
-      max-width: 250px;
+      max-height: 12rem;
       padding: 5px;
       text-align: center;
       border: 1px solid $light-gray;
+      margin: 8px;
     }
   }
 }

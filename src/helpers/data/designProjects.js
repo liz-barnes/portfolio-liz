@@ -1,5 +1,20 @@
 import Abbie from '../../images/Nightshade/LeadershipGraphics/Abbie.png'
 import Ryan from '../../images/Nightshade/LeadershipGraphics/Ryan.png'
+import Lauren from '../../images/Nightshade/LeadershipGraphics/LaurenCaptain.png'
+import Liz from '../../images/Nightshade/PlayerGraphics/Liz.png'
+import Claire from '../../images/Nightshade/PlayerGraphics/Claire.png'
+import Colleen from '../../images/Nightshade/PlayerGraphics/Colleen.png'
+import Abbey from '../../images/Nightshade/PlayerGraphics/Abbey.png'
+import LaurenPlayer from '../../images/Nightshade/PlayerGraphics/Lauren.jpg'
+import CoachingOpportunity from '../../images/Nightshade/GeneralAnnouncements/CoachingOpportunity.png'
+import FundraisingGoal from '../../images/Nightshade/GeneralAnnouncements/FundraisingGoal.png'
+import OpenPositions from '../../images/Nightshade/GeneralAnnouncements/OpenPositions.png'
+import TryoutSignUp from '../../images/Nightshade/GeneralAnnouncements/TryoutSignUp.png'
+import ThrowShade from '../../images/Nightshade/GeneralAnnouncements/ThrowShade.png'
+import OpenTryout from '../../images/Nightshade/GeneralAnnouncements/OpenTryout.png'
+import OpenTryout1 from '../../images/Nightshade/GeneralAnnouncements/OpenTryout1.png'
+import OpenTryout2 from '../../images/Nightshade/GeneralAnnouncements/OpenTryout2.png'
+
 
 const projects = [
   {
@@ -11,7 +26,15 @@ const projects = [
     projects: [
       {
         project: 'Leadership Announcements',
-        designs: [Abbie, Ryan],
+        designs: [Abbie, Ryan, Lauren],
+      },
+      {
+        project: 'Player Graphics',
+        designs: [Liz, Colleen, Claire, LaurenPlayer, Abbey],
+      },
+      {
+        project: 'General Announcements',
+        designs: [TryoutSignUp, CoachingOpportunity, ThrowShade, OpenTryout2, OpenTryout1, FundraisingGoal, OpenTryout, OpenPositions],
       },
     ],
   },
