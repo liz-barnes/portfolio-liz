@@ -1,6 +1,5 @@
-import Abbie from '../../images/Nightshade/LeadershipGraphics/Abbie.png';
-import Amy from '../../images/Nightshade/LeadershipGraphics/Amy.png';
-
+import Abbie from '../../images/Nightshade/LeadershipGraphics/Abbie.png'
+import Ryan from '../../images/Nightshade/LeadershipGraphics/Ryan.png'
 
 const projects = [
   {
@@ -9,8 +8,12 @@ const projects = [
     company: `Nashville Nightshade is a womxn's professional ultimate frisbee team.`,
     description: `I assisted with rebranding, designed graphics to highlight player stats, and created social media content for game announcements, tryout information, and open positions.`,
     role: '',
-    project1: 'Leadership Announcements',
-    designs1:[Abbie,Amy]
+    projects: [
+      {
+        project: 'Leadership Announcements',
+        designs: [Abbie, Ryan],
+      },
+    ],
   },
   {
     title: `That Legendary Play`,
