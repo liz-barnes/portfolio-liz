@@ -17,51 +17,9 @@
     font-size: 22px;
     padding-bottom: 15px;
   }
-  .design-img {
-    display: flex;
-    margin: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 80%;
-    padding-bottom: 15px;
-    img {
-      max-height: 12rem;
-      padding: 5px;
-      text-align: center;
-      border: 1px solid $light-gray;
-      margin: 8px;
-    }
-  }
 }
+
 .grid {
-  display: grid;
-  // grid-template-columns: repeat(6, 1fr);
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
-  grid-auto-flow: row dense;
-
-  img:nth-of-type(1),
-  img:nth-of-type(3) {
-    grid-column: span 2;
-    grid-row: span 1;
-  }
-  img:nth-of-type(2) {
-    grid-column: span 3;
-    grid-row: span 2;
-  }
-  img {
-    padding: 5px;
-    position: relative;
-    display: block;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: flex-start;
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.container {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   //   grid-auto-rows: 100px 300px;
@@ -70,39 +28,32 @@
   justify-items: center;
   align-items: start;
 }
-.gallery-item {
+
+.design-item {
   width: 100%;
   height: 100%;
   position: relative;
 }
-.gallery-item .image {
+.design-item .image {
   width: 100%;
   height: 100%;
   overflow: hidden;
 }
-.gallery-item .image img {
+.design-item .image img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-.container {
-  .gallery-container:nth-of-type(2) {
+.grid {
+  .design-container:nth-of-type(2) {
     grid-column: span 4;
     grid-row: span 2;
   }
-  .gallery-container:nth-of-type(3) {
+  .design-container:nth-of-type(3) {
     grid-column: span 2;
     grid-row: span 2;
   }
-  .gallery-container:nth-of-type(5) {
-    grid-column: span 3;
-    grid-row: span 2;
-  }
-  .gallery-container:nth-of-type(7) {
-    grid-column: span 3;
-    grid-row: span 2;
-  }
-  .gallery-container:nth-of-type(8) {
+  .design-container:nth-of-type(5), .design-container:nth-of-type(7), .design-container:nth-of-type(8) {
     grid-column: span 3;
     grid-row: span 2;
   }

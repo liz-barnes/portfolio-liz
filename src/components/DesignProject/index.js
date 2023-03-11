@@ -11,10 +11,10 @@ export const DesignProject = () => {
       <NavBar />
       <div className="design-project-page">
         <h1>{project.title}</h1>
-        <div className="container">
+        <div className="grid">
           {project.designs?.map((design) => (
-            <div className="gallery-container">
-              <div className="gallery-item">
+            <div className="design-container">
+              <div className="design-item">
                 <div className="image">
                   <img src={design} alt={''} />
                 </div>
@@ -22,24 +22,19 @@ export const DesignProject = () => {
             </div>
           ))}
         </div>
-        <div className="grid">
-          {project.projects?.map((proj) => (
-            <>
-              {proj.designs.map((design) => (
-                <img src={design} alt={''} />
-              ))}
-            </>
-          ))}
-        </div>
+
         {project.projects?.map((proj) => (
           <div className="design-project">
             <h3>{proj.project}</h3>
-            <div className="design-img">
+            <div className="grid">
               {proj.designs.map((design) => (
-                <>
-                  {console.warn('img', design)}
-                  <img src={design} alt={''} />
-                </>
+                <div className="design-container">
+                  <div className="design-item">
+                    <div className="image">
+                      <img src={design} alt={''} />
+                    </div>
+                  </div>
+                </div>
               ))}
             </div>
           </div>
