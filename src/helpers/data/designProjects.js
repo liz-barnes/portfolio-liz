@@ -74,10 +74,36 @@ const projects = [
       },
       {
         project: 'Player Graphics',
-        designs: [Liz, Colleen, Claire, LaurenPlayer, Abbey],
+        designs: [
+          {
+            image: Claire,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: Liz,
+            width: '2',
+            height: '2',
+          },
+          {
+            image: LaurenPlayer,
+            width: '3',
+            height: '2',
+          },
+          {
+            image: Colleen,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: Abbey,
+            width: '1',
+            height: '1',
+          },
+        ],
       },
       {
-        project: 'General Announcements',
+        project: 'Social Media Content / General Announcements',
         designs: [
           {
             image: TryoutSignUp,
