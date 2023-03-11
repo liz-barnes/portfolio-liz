@@ -38,71 +38,6 @@ const projects = [
 
     projects: [
       {
-        project: 'Leadership Announcements',
-        designs: [
-          {
-            image: Abbie,
-            width: '1',
-            height: '1',
-          },
-          {
-            image: Ryan,
-            width: '2',
-            height: '2',
-          },
-          {
-            image: Lauren,
-            width: '1',
-            height: '1',
-          },
-          {
-            image: Daniel,
-            width: '2',
-            height: '2',
-          },
-          {
-            image: Amy,
-            width: '1',
-            height: '1',
-          },
-          // {
-          //   image: LaurenCaptain,
-          //   width: '2',
-          //   height: '2',
-          // },
-        ],
-      },
-      {
-        project: 'Player Graphics',
-        designs: [
-          {
-            image: Claire,
-            width: '1',
-            height: '1',
-          },
-          {
-            image: Liz,
-            width: '2',
-            height: '2',
-          },
-          {
-            image: LaurenPlayer,
-            width: '3',
-            height: '2',
-          },
-          {
-            image: Colleen,
-            width: '1',
-            height: '1',
-          },
-          {
-            image: Abbey,
-            width: '1',
-            height: '1',
-          },
-        ],
-      },
-      {
         project: 'Social Media Content / General Announcements',
         designs: [
           {
@@ -142,12 +77,77 @@ const projects = [
           },
           {
             image: OpenTryout,
-            width: '3',
+            width: '4',
             height: '2',
           },
         ],
         // Original order
         // designs: [TryoutSignUp, CoachingOpportunity, ThrowShade, OpenTryout2, OpenTryout1, FundraisingGoal, OpenTryout, OpenPositions],
+      },
+      {
+        project: 'Leadership Announcements',
+        designs: [
+          {
+            image: Abbie,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: Ryan,
+            width: '2',
+            height: '2',
+          },
+          {
+            image: Lauren,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: Daniel,
+            width: '2',
+            height: '2',
+          },
+          {
+            image: Amy,
+            width: '1',
+            height: '1',
+          },
+          // {
+          //   image: LaurenCaptain,
+          //   width: '2',
+          //   height: '2',
+          // },
+        ],
+      },
+      {
+        project: 'Player Graphics',
+        designs: [
+          {
+            image: Claire,
+            width: '2',
+            height: '1',
+          },
+          {
+            image: LaurenPlayer,
+            width: '3',
+            height: '2',
+          },
+          {
+            image: Liz,
+            width: '2',
+            height: '1',
+          },
+          {
+            image: Colleen,
+            width: '2',
+            height: '1',
+          },
+          {
+            image: Abbey,
+            width: '2',
+            height: '2',
+          },
+        ],
       },
     ],
   },

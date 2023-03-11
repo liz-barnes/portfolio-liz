@@ -11,7 +11,7 @@ export const DesignProject = () => {
       <NavBar />
       <div className="design-project-page">
         <h1>{project.title}</h1>
-        <div className="grid">
+        {/* <div className="grid">
           {project.designs?.map((design) => (
             <div className="design-container">
               <div className="design-item">
@@ -21,7 +21,7 @@ export const DesignProject = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {project.projects?.map((proj) => (
           <div className="design-project">
