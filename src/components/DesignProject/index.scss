@@ -1,15 +1,11 @@
 @import '../../styles/index.scss';
 
 .design-project-page {
-  //   background-color: $light-gray;
-  //   margin: 30px 175px 0px 175px;
-  padding: 25px 100px 200px 75px;
+  padding: 83px 200px 225px 200px;
   h1 {
     font-family: $secondary-font;
     font-weight: 100;
     color: $primary-color;
-    padding-bottom: 50px;
-    margin: 0;
   }
   h3 {
     font-family: $primary-font;
@@ -23,32 +19,31 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-    grid-auto-rows: max-content;
   grid-gap: 10px;
   grid-auto-flow: dense;
   justify-items: center;
   align-items: start;
 }
 .w-1 {
-    grid-column: span 1;
+  grid-column: span 1;
 }
 .w-2 {
-    grid-column: span 2;
+  grid-column: span 2;
 }
 .w-3 {
-    grid-column: span 3;
+  grid-column: span 3;
 }
 .w-4 {
-    grid-column: span 4;
+  grid-column: span 4;
 }
 .h-1 {
-    grid-row: span 1;
+  grid-row: span 1;
 }
 .h-2 {
-    grid-row: span 2;
+  grid-row: span 2;
 }
 .h-3 {
-    grid-row: span 3;
+  grid-row: span 3;
 }
 .design-item {
   width: 100%;
@@ -65,17 +60,3 @@
   height: 100%;
   object-fit: contain;
 }
-// .grid {
-//   .design-container:nth-of-type(2) {
-//     grid-column: span 4;
-//     grid-row: span 2;
-//   }
-//   .design-container:nth-of-type(3) {
-//     grid-column: span 2;
-//     grid-row: span 2;
-//   }
-//   .design-container:nth-of-type(5), .design-container:nth-of-type(7), .design-container:nth-of-type(8) {
-//     grid-column: span 3;
-//     grid-row: span 2;
-//   }
-// }
