@@ -28,10 +28,12 @@ export const DesignProject = () => {
             <h3>{proj.project}</h3>
             <div className="grid">
               {proj.designs.map((design) => (
-                <div className="design-container">
+                <div
+                  className={`design-container w-${design.width} h-${design.height}`}
+                >
                   <div className="design-item">
                     <div className="image">
-                      <img src={design} alt={''} />
+                      <img src={design.image} alt={''} />
                     </div>
                   </div>
                 </div>

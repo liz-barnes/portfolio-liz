@@ -15,7 +15,6 @@ import OpenTryout from '../../images/Nightshade/GeneralAnnouncements/OpenTryout.
 import OpenTryout1 from '../../images/Nightshade/GeneralAnnouncements/OpenTryout1.png'
 import OpenTryout2 from '../../images/Nightshade/GeneralAnnouncements/OpenTryout2.png'
 
-
 const projects = [
   {
     title: `Nashville Nightshade`,
@@ -23,7 +22,16 @@ const projects = [
     company: `Nashville Nightshade is a womxn's professional ultimate frisbee team.`,
     description: `I assisted with rebranding, designed graphics to highlight player stats, and created social media content for game announcements, tryout information, and open positions.`,
     role: '',
-    designs: [TryoutSignUp, OpenTryout2, CoachingOpportunity, ThrowShade, OpenTryout1, OpenPositions, FundraisingGoal, OpenTryout],
+    designs: [
+      TryoutSignUp,
+      OpenTryout2,
+      CoachingOpportunity,
+      ThrowShade,
+      OpenTryout1,
+      OpenPositions,
+      FundraisingGoal,
+      OpenTryout,
+    ],
 
     projects: [
       {
@@ -36,10 +44,50 @@ const projects = [
       },
       {
         project: 'General Announcements',
-        designs: [TryoutSignUp, OpenTryout2, CoachingOpportunity, ThrowShade, OpenTryout2, OpenTryout1, FundraisingGoal, OpenTryout, OpenPositions],
+        designs: [
+          {
+            image: TryoutSignUp,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: OpenTryout2,
+            width: '4',
+            height: '2',
+          },
+          {
+            image: CoachingOpportunity,
+            width: '2',
+            height: '2',
+          },
+          {
+            image: ThrowShade,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: OpenTryout1,
+            width: '3',
+            height: '2',
+          },
+          {
+            image: OpenPositions,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: FundraisingGoal,
+            width: '3',
+            height: '2',
+          },
+          {
+            image: OpenTryout,
+            width: '3',
+            height: '2',
+          },
+        ],
         // Original order
         // designs: [TryoutSignUp, CoachingOpportunity, ThrowShade, OpenTryout2, OpenTryout1, FundraisingGoal, OpenTryout, OpenPositions],
-
       },
     ],
   },
