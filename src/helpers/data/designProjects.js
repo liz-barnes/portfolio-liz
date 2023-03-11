@@ -1,6 +1,9 @@
 import Abbie from '../../images/Nightshade/LeadershipGraphics/Abbie.png'
 import Ryan from '../../images/Nightshade/LeadershipGraphics/Ryan.png'
-import Lauren from '../../images/Nightshade/LeadershipGraphics/LaurenCaptain.png'
+import Lauren from '../../images/Nightshade/LeadershipGraphics/Lauren.png'
+// import LaurenCaptain from '../../images/Nightshade/LeadershipGraphics/LaurenCaptain.png'
+import Daniel from '../../images/Nightshade/LeadershipGraphics/Daniel.png'
+import Amy from '../../images/Nightshade/LeadershipGraphics/Amy.png'
 import Liz from '../../images/Nightshade/PlayerGraphics/Liz.png'
 import Claire from '../../images/Nightshade/PlayerGraphics/Claire.png'
 import Colleen from '../../images/Nightshade/PlayerGraphics/Colleen.png'
@@ -36,7 +39,38 @@ const projects = [
     projects: [
       {
         project: 'Leadership Announcements',
-        designs: [Abbie, Ryan, Lauren],
+        designs: [
+          {
+            image: Abbie,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: Ryan,
+            width: '2',
+            height: '2',
+          },
+          {
+            image: Lauren,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: Daniel,
+            width: '2',
+            height: '2',
+          },
+          {
+            image: Amy,
+            width: '1',
+            height: '1',
+          },
+          // {
+          //   image: LaurenCaptain,
+          //   width: '2',
+          //   height: '2',
+          // },
+        ],
       },
       {
         project: 'Player Graphics',
