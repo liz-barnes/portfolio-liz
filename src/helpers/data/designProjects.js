@@ -23,6 +23,8 @@ const projects = [
     company: `Nashville Nightshade is a womxn's professional ultimate frisbee team.`,
     description: `I assisted with rebranding, designed graphics to highlight player stats, and created social media content for game announcements, tryout information, and open positions.`,
     role: '',
+    designs: [TryoutSignUp, OpenTryout2, CoachingOpportunity, ThrowShade, OpenTryout1, OpenPositions, FundraisingGoal, OpenTryout],
+
     projects: [
       {
         project: 'Leadership Announcements',
@@ -34,7 +36,10 @@ const projects = [
       },
       {
         project: 'General Announcements',
-        designs: [TryoutSignUp, CoachingOpportunity, ThrowShade, OpenTryout2, OpenTryout1, FundraisingGoal, OpenTryout, OpenPositions],
+        designs: [TryoutSignUp, OpenTryout2, CoachingOpportunity, ThrowShade, OpenTryout2, OpenTryout1, FundraisingGoal, OpenTryout, OpenPositions],
+        // Original order
+        // designs: [TryoutSignUp, CoachingOpportunity, ThrowShade, OpenTryout2, OpenTryout1, FundraisingGoal, OpenTryout, OpenPositions],
+
       },
     ],
   },
