@@ -24,18 +24,7 @@ const projects = [
     type: 'Sports Graphics & Social Media Content',
     company: `Nashville Nightshade is a womxn's professional ultimate frisbee team.`,
     description: `I assisted with rebranding, designed graphics to highlight player stats, and created social media content for game announcements, tryout information, and open positions.`,
-    role: '',
-    designs: [
-      TryoutSignUp,
-      OpenTryout2,
-      CoachingOpportunity,
-      ThrowShade,
-      OpenTryout1,
-      OpenPositions,
-      FundraisingGoal,
-      OpenTryout,
-    ],
-
+    role: `Nashville Nightshade was the first ever womxn's professional ultimate frisbee team establised in 2018. I was heavily involved in the formation of this team as well as leadership on and off the field. Wanting to create more visibility for my teammates, womxn athletes and the sport of ultimate, I decided to teach myself graphic design. I enthusiastically began making really poor graphics on a platform that I'm not even sure is used for such tasks. I did a ton of research and found inspiration for my creative direction along the way. I assisted with rebranding, designed graphics to highlight player stats, and created social media content for game announcements, tryout information, and open positions.`,
     projects: [
       {
         project: 'Social Media Content / General Announcements',
