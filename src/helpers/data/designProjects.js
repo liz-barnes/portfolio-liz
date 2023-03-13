@@ -17,6 +17,25 @@ import ThrowShade from '../../images/Nightshade/GeneralAnnouncements/ThrowShade.
 import OpenTryout from '../../images/Nightshade/GeneralAnnouncements/OpenTryout.png'
 import OpenTryout1 from '../../images/Nightshade/GeneralAnnouncements/OpenTryout1.png'
 import OpenTryout2 from '../../images/Nightshade/GeneralAnnouncements/OpenTryout2.png'
+import HailMaryOrange from '../../images/TLP/Graphics/HAIL_MARY_ORANGE_18x24.png'
+import HailMaryWhite from '../../images/TLP/Graphics/HAIL_MARY_WHITE_18x24.png'
+import JumpPass from '../../images/TLP/Graphics/JUMP_PASS_WHITE.png'
+import RoadWin from '../../images/TLP/Graphics/ROAD_WIN_RED.png'
+import RoseBowl from '../../images/TLP/Graphics/ROSE_BOWL.png'
+import NationalChampionship from '../../images/TLP/Graphics/NATIONAL_CHAMPIONSHIP_WHITE.png'
+import NationalChampionshipOrange from '../../images/TLP/Graphics/NATIONAL_CHAMPIONSHIP_ORANGE.png'
+import Play1 from '../../images/TLP/Graphics/PLAY_NO_1_WHITE.png'
+import Play1Orange from '../../images/TLP/Graphics/PLAY_NO_1_ORANGE.png'
+
+import Yards from '../../images/TLP/Graphics/109_YARDS_ORANGE.png'
+import Dagger from '../../images/TLP/Graphics/CHAMPIONSHIP_DAGGER_CRIMSON.png'
+import Clemson from '../../images/TLP/Graphics/GAME-WINNING_DRIVE_PURPLE.png'
+import ClemsonOrange from '../../images/TLP/Graphics/GAME-WINNING_DRIVE_ORANGE.png'
+import JumpPassFl from '../../images/TLP/Graphics/JUMP_PASS_ORANGE.png'
+
+import Rivalry from '../../images/TLP/Graphics/RIVALRY_WIN_GOLD.png'
+import Texas from '../../images/TLP/Graphics/TEXAS_ROSE.png'
+import OT from '../../images/TLP/Graphics/OT_CHAMPIONSHIP_WIN_CRIMSON.png'
 
 const projects = [
   {
@@ -147,6 +166,104 @@ const projects = [
       'That Legendary Play is a sports print retailer that offers prints and other media displaying legendary sports plays and diagrams.',
     description:
       'I designed their logo and layout for their graphics. I created their initial handful of graphics representing unforgettable plays in football.',
+    projects: [
+      {
+        project: 'Graphics',
+        designs: [
+          {
+            image: Texas,
+            width: '3',
+            height: '3',
+            border: true,
+          },
+          {
+            image: Clemson,
+            width: '3',
+            height: '3',
+          },
+          {
+            image: HailMaryWhite,
+            width: '2',
+            height: '2',
+          },
+          {
+            image: Play1,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: Yards,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: JumpPass,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: NationalChampionship,
+            width: '3',
+            height: '3',
+          },
+          {
+            image: RoseBowl,
+            width: '2',
+            height: '2',
+          },
+          {
+            image: RoadWin,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: HailMaryOrange,
+            width: '1',
+            height: '1',
+            border: true,
+          },
+          {
+            image: ClemsonOrange,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: JumpPassFl,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: JumpPassFl,
+            width: '4',
+            height: '3',
+            border: true,
+          },
+          {
+            image: OT,
+            width: '3',
+            height: '2',
+            border: true,
+          },
+          {
+            image: Play1Orange,
+            width: '1',
+            height: '1',
+            border: true,
+          },
+          {
+            image: Rivalry,
+            width: '1',
+            height: '1',
+            border: true,
+          },
+          {
+            image: Dagger,
+            width: '1',
+            height: '1',
+          },
+        ],
+      },
+    ],
   },
   {
     title: `The Rodgers Group`,

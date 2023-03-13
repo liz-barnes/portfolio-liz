@@ -21,7 +21,7 @@ export const DesignProject = () => {
                   className={`design-container w-${design.width} h-${design.height}`}
                 >
                   <div className="design-item">
-                    <div className="image">
+                    <div className={`image ${design.border ? 'border' : ''}`}>
                       <img src={design.image} alt={''} />
                     </div>
                   </div>
