@@ -172,13 +172,12 @@ const projects = [
         project: 'Graphics',
         designs: [
           {
-            image: Texas,
+            image: Yards,
             width: '3',
             height: '3',
-            border: true,
           },
           {
-            image: Clemson,
+            image: RoadWin,
             width: '3',
             height: '3',
           },
@@ -188,12 +187,39 @@ const projects = [
             height: '2',
           },
           {
-            image: Play1,
+            image: Clemson,
             width: '1',
             height: '1',
           },
           {
-            image: Yards,
+            image: ClemsonOrange,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: Dagger,
+            width: '1',
+            height: '1',
+          },
+          {
+            image: NationalChampionshipOrange,
+            width: '3',
+            height: '3',
+            border: true,
+          },
+          {
+            image: Play1,
+            width: '2',
+            height: '2',
+          },
+          {
+            image: HailMaryOrange,
+            width: '1',
+            height: '1',
+            border: true,
+          },
+          {
+            image: NationalChampionship,
             width: '1',
             height: '1',
           },
@@ -203,35 +229,10 @@ const projects = [
             height: '1',
           },
           {
-            image: NationalChampionship,
-            width: '3',
-            height: '3',
-          },
-          {
-            image: RoseBowl,
-            width: '2',
-            height: '2',
-          },
-          {
-            image: RoadWin,
-            width: '1',
-            height: '1',
-          },
-          {
-            image: HailMaryOrange,
+            image: Play1Orange,
             width: '1',
             height: '1',
             border: true,
-          },
-          {
-            image: ClemsonOrange,
-            width: '1',
-            height: '1',
-          },
-          {
-            image: JumpPassFl,
-            width: '1',
-            height: '1',
           },
           {
             image: JumpPassFl,
@@ -246,7 +247,7 @@ const projects = [
             border: true,
           },
           {
-            image: Play1Orange,
+            image: Texas,
             width: '1',
             height: '1',
             border: true,
@@ -258,7 +259,7 @@ const projects = [
             border: true,
           },
           {
-            image: Dagger,
+            image: RoseBowl,
             width: '1',
             height: '1',
           },
