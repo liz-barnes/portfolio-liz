@@ -166,6 +166,7 @@ const projects = [
       'That Legendary Play is a sports print retailer that offers prints and other media displaying legendary sports plays and diagrams.',
     description:
       'I designed their logo and layout for their graphics. I created their initial handful of graphics representing unforgettable plays in football.',
+    role: 'That Legendary Play is a sports print retailer that offers prints and other media displaying legendary sports plays and diagrams. I worked with the founders of TLP to design their logo, define a color scheme and brand, and design the layout for their graphics. I created their initial 15+ handful of graphics that represent unforgettable plays in football.',
     projects: [
       {
         project: 'Graphics',
