@@ -16,6 +16,7 @@ import TryoutSignUp from '../../images/Nightshade/GeneralAnnouncements/TryoutSig
 import ThrowShade from '../../images/Nightshade/GeneralAnnouncements/ThrowShade.png'
 import OpenTryout from '../../images/Nightshade/GeneralAnnouncements/OpenTryout.png'
 import OpenTryout1 from '../../images/Nightshade/GeneralAnnouncements/OpenTryout1.png'
+
 import OpenTryout2 from '../../images/Nightshade/GeneralAnnouncements/OpenTryout2.png'
 import HailMaryOrange from '../../images/TLP/Graphics/HAIL_MARY_ORANGE_18x24.png'
 import HailMaryWhite from '../../images/TLP/Graphics/HAIL_MARY_WHITE_18x24.png'
@@ -26,16 +27,16 @@ import NationalChampionship from '../../images/TLP/Graphics/NATIONAL_CHAMPIONSHI
 import NationalChampionshipOrange from '../../images/TLP/Graphics/NATIONAL_CHAMPIONSHIP_ORANGE.png'
 import Play1 from '../../images/TLP/Graphics/PLAY_NO_1_WHITE.png'
 import Play1Orange from '../../images/TLP/Graphics/PLAY_NO_1_ORANGE.png'
-
 import Yards from '../../images/TLP/Graphics/109_YARDS_ORANGE.png'
 import Dagger from '../../images/TLP/Graphics/CHAMPIONSHIP_DAGGER_CRIMSON.png'
 import Clemson from '../../images/TLP/Graphics/GAME-WINNING_DRIVE_PURPLE.png'
 import ClemsonOrange from '../../images/TLP/Graphics/GAME-WINNING_DRIVE_ORANGE.png'
 import JumpPassFl from '../../images/TLP/Graphics/JUMP_PASS_ORANGE.png'
-
 import Rivalry from '../../images/TLP/Graphics/RIVALRY_WIN_GOLD.png'
 import Texas from '../../images/TLP/Graphics/TEXAS_ROSE.png'
 import OT from '../../images/TLP/Graphics/OT_CHAMPIONSHIP_WIN_CRIMSON.png'
+
+import LogoPresentation from '../../images/TLP/Logo/TLP_Logo_Design_Presentation.png'
 
 const projects = [
   {
@@ -264,6 +265,16 @@ const projects = [
             height: '1',
           },
         ],
+      },
+      {
+        project: 'Logo Design',
+        designs: [
+          {
+            image: LogoPresentation,
+            width: '7',
+            height: '7',
+          },
+        ]
       },
     ],
   },

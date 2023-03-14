@@ -49,6 +49,9 @@
 .w-4 {
   grid-column: span 4;
 }
+.w-7 {
+  grid-column: span 7;
+}
 .h-1 {
   grid-row: span 1;
 }
@@ -57,6 +60,9 @@
 }
 .h-3 {
   grid-row: span 3;
+}
+.h-7 {
+  grid-row: span 7;
 }
 .design-item {
   width: 100%;
