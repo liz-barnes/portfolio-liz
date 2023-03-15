@@ -159,6 +159,7 @@ const projects = [
         ],
       },
     ],
+    url: 'NashvilleNightshade'
   },
   {
     title: `That Legendary Play`,
@@ -277,6 +278,7 @@ const projects = [
         ]
       },
     ],
+    url: 'ThatLegendaryPlay'
   },
   {
     title: `The Rodgers Group`,
