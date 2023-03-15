@@ -4,6 +4,7 @@ import './index.scss'
 import { Button } from 'react-bootstrap'
 import projects from '../../helpers/data/developmentProjects'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom'
 
 export const DevelopmentPage = () => {
   /* Storing user's device details in a variable*/
@@ -50,9 +51,13 @@ export const DevelopmentPage = () => {
                 )}
                 <div className="button-group">
                   {proj.info && (
-                    <Button>
-                      More Info
-                    </Button>
+                    <Link
+                      className=""
+                      to={`/development/${proj.url}`}
+                      state={proj}
+                    >
+                      <Button>More Info</Button>
+                    </Link>
                   )}
                   {proj.githubLink && (
                     <Button onClick={() => `${window.open(proj.githubLink)}`}>

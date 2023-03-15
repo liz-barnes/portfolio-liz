@@ -22,6 +22,7 @@ export const projects = [
       'Implemented UI features such as widgets, tables, cards, modals, forms, navigation and tabs',
     ],
     info: true,
+    url: 'BuiltTechnologies'
   },
   {
     title: 'Portfolio',
