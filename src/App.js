@@ -5,6 +5,7 @@ import { DevelopmentPage } from './components/DevelopmentPage'
 import { DesignPage } from './components/DesignPage'
 import { Resume } from './components/Resume'
 import { DesignProject } from './components/DesignProject'
+import { DevelopmentProject } from './components/DevelopmentProject'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="/design" element={<DesignPage />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projectName" element={<DesignProject />} />
-          <Route path="/development/:title" element={<DesignProject />} />
+          <Route path="/development/:title" element={<DevelopmentProject />} />
         </Routes>
       </div>
     </>
