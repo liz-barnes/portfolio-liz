@@ -24,7 +24,7 @@
   p {
     font-weight: 200;
     padding: 0;
-    margin: 0;
+    margin-top: 35px;
     max-width: 80%;
   }
 }
@@ -88,13 +88,19 @@
     padding: 83px 100px 225px 100px;
   }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 975px) {
+  p {
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 775px) {
   .design-project-page {
-    padding: 83px 75px 225px 75px;
+    padding: 83px 45px 225px 45px !important;
   }
 }
 @media screen and (max-width: 465px) {
   .design-project-page {
-    padding: 83px 15px 225px 15px;
+    padding: 83px 20px 225px 20px !important;
   }
 }

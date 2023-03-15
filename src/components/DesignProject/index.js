@@ -11,6 +11,7 @@ export const DesignProject = () => {
       <NavBar />
       <div className="design-project-page">
         <h1>{project.title}</h1>
+        <h6>{project.type}</h6>
         <p>{project.role}</p>
         {project.projects?.map((proj) => (
           <div className="design-project">

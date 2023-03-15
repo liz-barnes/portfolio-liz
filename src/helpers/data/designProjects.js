@@ -163,7 +163,7 @@ const projects = [
   },
   {
     title: `That Legendary Play`,
-    type: ' \Graphics & Logo Design',
+    type: 'Graphics & Logo Design',
     company:
       'That Legendary Play is a sports print retailer that offers prints and other media displaying legendary sports plays and diagrams.',
     description:
