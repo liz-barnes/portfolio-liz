@@ -43,7 +43,7 @@ export const DesignPage = () => {
                   {proj.description}
                 </p>
                 <div className="button-group">
-                  <Link className="" to="/projectName" state={proj}>
+                  <Link className="" to={`/design/${proj.url}`} state={proj}>
                     <Button>
                       View Designs
                     </Button>
