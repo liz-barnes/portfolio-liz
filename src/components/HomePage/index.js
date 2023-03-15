@@ -72,7 +72,7 @@ export const HomePage = () => {
             gives me the opportunity to express my creativity, while meeting a
             challenge every step of the way.
           </p>
-          <h6>Languages:</h6>
+          <h6>Languages/Frameworks:</h6>
           <ul>
             <li>Javascript</li>
             <li>React</li>

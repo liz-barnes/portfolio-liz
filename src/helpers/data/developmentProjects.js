@@ -1,4 +1,4 @@
-import {faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faCss3, faBootstrap } from '@fortawesome/free-brands-svg-icons'
+import {faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faCss3, faBootstrap, faNode, faJira } from '@fortawesome/free-brands-svg-icons'
 
 export const projects = [
   {
@@ -7,7 +7,21 @@ export const projects = [
     company: 'Built Technologies is the leading provider of construction finance technology. ',
     description:
       'I developed and maintained user-friendly and efficient front-end applications using React and TypeScript. I worked closely with cross-functional teams to gather requirements and implement features.',
-    tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass]
+    tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faNode, faJira],
+    work: [
+      'Developed and maintained user-friendly and efficient front-end applications using React and TypeScript',
+      'Worked closely with cross-functional teams to gather requirements and implement features',
+      'Identify process changes that increased productivity by updating the teams JIRA workflow and Pull Request standards',
+      'Completed discovery work for a new feature to determine if existing components could be reused, modified or would need to be completely rebuilt',
+      'Improved maintainability by fixing bugs, refactoring, and documenting components with Storybook',
+      'Collaborated with product and design to ensure usability for features',
+      'Updated and maintained existing codebase to keep up with the latest technologies',
+      'Used Agile methodology to manage and prioritize tasks, track progress and ensure timely delivery of projects',
+      'Worked with APIs and databases to design, develop and maintain web applications',
+      'Participated in code reviews, offered constructive feedback, and suggested improvements to ensure code quality',
+      'Implemented UI features such as widgets, tables, cards, modals, forms, navigation and tabs',
+    ],
+    info: true,
   },
   {
     title: 'Portfolio',
@@ -37,7 +51,7 @@ export const projects = [
       'This application was designed to allow users to view the National Park Service API data in a more modern, condensed, and user-friendly application. Users can search for a National Park, find hikes realted to that park, create a trip and save either park or hike to a trip!',
     githubLink: 'https://github.com/liz-barnes/front-end-capstone',
     websiteLink: 'https://adventure-planner-lb.netlify.app',
-    tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faCss3, faBootstrap]
+    tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faCss3, faBootstrap, faJira]
 
   },
   // {

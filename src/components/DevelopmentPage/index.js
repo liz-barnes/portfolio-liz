@@ -50,9 +50,11 @@ export const DevelopmentPage = () => {
                 )}
                 <div className="button-group">
                   {/* TODO: Uncomment when project page is ready */}
-                  {/* <Button onClick={() => console.warn('info')}>
-                    More Info
-                  </Button> */}
+                  {proj.info && (
+                    <Button onClick={() => console.warn('info')}>
+                      More Info
+                    </Button>
+                  )}
                   {proj.githubLink && (
                     <Button onClick={() => `${window.open(proj.githubLink)}`}>
                       Github Project
