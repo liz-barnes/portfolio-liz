@@ -43,9 +43,8 @@ export const DesignPage = () => {
                   {proj.description}
                 </p>
                 <div className="button-group">
-                  {/* TODO: Uncomment when project page is ready */}
                   <Link className="" to="/projectName" state={proj}>
-                    <Button onClick={() => console.warn('info')}>
+                    <Button>
                       View Designs
                     </Button>
                   </Link>

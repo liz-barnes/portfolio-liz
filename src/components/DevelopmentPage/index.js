@@ -49,9 +49,8 @@ export const DevelopmentPage = () => {
                   </p>
                 )}
                 <div className="button-group">
-                  {/* TODO: Uncomment when project page is ready */}
                   {proj.info && (
-                    <Button onClick={() => console.warn('info')}>
+                    <Button>
                       More Info
                     </Button>
                   )}
