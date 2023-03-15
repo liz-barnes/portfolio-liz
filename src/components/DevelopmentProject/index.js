@@ -2,6 +2,7 @@ import { useLocation } from 'react-router-dom'
 import { Footer } from '../Footer'
 import { NavBar } from '../NavBar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import './index.scss'
 
 export const DevelopmentProject = () => {
   const location = useLocation()
@@ -10,24 +11,26 @@ export const DevelopmentProject = () => {
   return (
     <>
       <NavBar />
-      <h3>{project.title}</h3>
-      <h6>{project.type}</h6>
-      <p>{project.company}</p>
+      <div className="development-project-page">
+        <h3>{project.title}</h3>
+        <h6>{project.type}</h6>
+        <p>{project.company}</p>
 
-      <h4>What I did:</h4>
-      <ul>
-        {project.work.map((i) => (
-          <li>{i}</li>
-        ))}
-      </ul>
-      {project.tools?.length && (
-        <p className="tools-section">
-          <strong>Tools:</strong>
-          {project.tools.map((p) => (
-            <FontAwesomeIcon className="tools-icon" icon={p} />
+        <h4>What I did:</h4>
+        <ul>
+          {project.work.map((i) => (
+            <li>{i}</li>
           ))}
-        </p>
-      )}
+        </ul>
+        {project.tools?.length && (
+          <p className="tools-section">
+            <strong>Tools:</strong>
+            {project.tools.map((p) => (
+              <FontAwesomeIcon className="tools-icon" icon={p} />
+            ))}
+          </p>
+        )}
+      </div>
       <Footer />
     </>
   )
