@@ -4,7 +4,7 @@ export const projects = [
   {
     title: 'Built Technologies',
     type: 'Full Stack Software Engineer',
-    company: 'Built Technologies is the leading provider of construction finance technology. ',
+    company: 'Built Technologies is the leading provider of construction finance technology. Its collaboration software brings the draw management process online and helps reduce construction loan risk, increases loan profitability, transforms the borrower experience, and simplifies compliance.',
     description:
       'I developed and maintained user-friendly and efficient front-end applications using React and TypeScript. I worked closely with cross-functional teams to gather requirements and implement features.',
     tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faNode, faJira],
