@@ -37,6 +37,7 @@ import Texas from '../../images/TLP/Graphics/TEXAS_ROSE.png'
 import OT from '../../images/TLP/Graphics/OT_CHAMPIONSHIP_WIN_CRIMSON.png'
 
 import LogoPresentation from '../../images/TLP/Logo/TLP_Logo_Design_Presentation.png'
+import TRGLogoPresentation from '../../images/TRG/TRG_Logo_Design_Presentation.png'
 
 const projects = [
   {
@@ -283,8 +284,23 @@ const projects = [
   {
     title: `The Rodgers Group`,
     type: 'Logo Design',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur tortor a malesuada feugiat. Pellentesque fermentum quis neque eget faucibus. Sed commodo euismod elit facilisis finibus. Curabitur sed accumsan felis. Donec sollicitudin mi non consectetur hendrerit. Aliquam erat volutpat. Etiam tortor leo, mattis sed tellus vitae, interdum vulputate orci.',
+    company:
+      'Your favorite realtors in Dallas, Texas under VIVO Realty',
+    description: 'I designed their logo',
+    role: 'The Rodgers Group are your favorite Realtors, Alex & Kacy Rodgers, in Dallas, Texas. They work with Buyers, Sellers, Investors, and Developers in all of their real estate ventures. Whether it’s buying a dream home or leasing the perfect apartment, they will get it done.',
+    projects: [
+      {
+        project: 'Logo',
+        designs: [
+          {
+            image: TRGLogoPresentation,
+            width: '7',
+            height: '7',
+          }
+        ]
+      }
+    ],
+    url: 'TheRodgersGroup',
   },
 ]
 
