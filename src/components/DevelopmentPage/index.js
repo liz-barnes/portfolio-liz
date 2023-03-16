@@ -23,7 +23,7 @@ export const DevelopmentPage = () => {
         {projects.map((proj, i) => (
           <div
             className={
-              isMobileDevice ? 'mobile-project-container' : 'project-container'
+              !isMobileDevice ? 'mobile-project-container' : 'project-container'
             }
             key={i}
           >
