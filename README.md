@@ -1,5 +1,5 @@
 # [My Portfolio](https://lizmarieportfolio.netlify.app/)
-> This portfolio website was designed to show case my work and provide a place for others to learn more about me and reach out for job opportunities, sevices or collaboration.
+> This portfolio website was designed to show case my work and provide a place for others to learn more about me and reach out for job opportunities, services or collaboration.
 
 ## User experience
 Start on my landing page to learn a bit about me. Travel over to the Development page to check out some of my projects!
