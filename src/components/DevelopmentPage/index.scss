@@ -44,7 +44,6 @@ h6 {
     font-family: $primary-font;
     padding: 15px 22px;
     margin: 0px 10px;
-    border-radius: 10px;
     border: solid 2px $beige;
     color: $beige;
     background-color: $dark-green;
@@ -112,13 +111,13 @@ h6 {
     font-size: 16px;
   }
   .button-group {
-    button:nth-child(odd) {
-      border-bottom-right-radius: 0px;
-      border-top-right-radius: 0px;
+    button:first-of-type {
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
     }
-    button:nth-child(even) {
-      border-bottom-left-radius: 0px;
-      border-top-left-radius: 0px;
+    button:last-of-type {
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
     }
 
     button {
