@@ -7,7 +7,7 @@
 
 h5 {
   font-family: $primary-font;
-  font-weight: 500;
+  font-weight: 300;
   font-size: $h5;
 }
 
@@ -16,19 +16,20 @@ h5 {
 }
 
 .pdf-link {
-  font-family: $primary-font;
-  padding: 15px 22px;
-  margin: 0px 10px;
-  border-radius: 10px;
-  border: solid 2px $light-green;
-  color: $beige;
-  background-color: $dark-green;
-  font-size: 16px;
+  font-size: 15px;
+  background-color: transparent;
+  color: $primary-color;
+  border: 1px solid $light-gray;
+  border-radius: 5px;
+  padding: 10px 12px;
   text-decoration: none;
+  font-size: 16px;
 }
 
 .pdf-link:hover {
-  background-color: $light-green;
+  background-color: $dark-green;
+  border: 2px solid $light-green;
+  color: $beige;
 }
 
 @media screen and (max-width: 850px) {

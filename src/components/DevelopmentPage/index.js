@@ -4,6 +4,7 @@ import './index.scss'
 import { Button } from 'react-bootstrap'
 import projects from '../../helpers/data/developmentProjects'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom'
 
 export const DevelopmentPage = () => {
   /* Storing user's device details in a variable*/
@@ -18,7 +19,7 @@ export const DevelopmentPage = () => {
   return (
     <div>
       <NavBar />
-      <div className="projects">
+      <div className="projects page">
         {projects.map((proj, i) => (
           <div
             className={
@@ -49,10 +50,15 @@ export const DevelopmentPage = () => {
                   </p>
                 )}
                 <div className="button-group">
-                  {/* TODO: Uncomment when project page is ready */}
-                  {/* <Button onClick={() => console.warn('info')}>
-                    More Info
-                  </Button> */}
+                  {proj.info && (
+                    <Link
+                      className=""
+                      to={`/development/${proj.url}`}
+                      state={proj}
+                    >
+                      <Button>More Info</Button>
+                    </Link>
+                  )}
                   {proj.githubLink && (
                     <Button onClick={() => `${window.open(proj.githubLink)}`}>
                       Github Project
