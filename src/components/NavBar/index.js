@@ -4,9 +4,8 @@ import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useState } from 'react'
 
-// TODO: Make responsive -- hamburger menu
 export const NavBar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false)
   return (
     <div className="navbar">
       <div className="brand-container">
@@ -15,7 +14,11 @@ export const NavBar = () => {
         </Link>
       </div>
       <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
-        {menuOpen ? <FontAwesomeIcon icon={faXmark} /> : <FontAwesomeIcon icon={faBars} />}
+        {menuOpen ? (
+          <FontAwesomeIcon icon={faXmark} />
+        ) : (
+          <FontAwesomeIcon icon={faBars} />
+        )}
       </div>
       <div className={menuOpen ? 'nav-active' : 'nav'}>
         <NavLink exact="true" className={'navbar-item'} to="/development">

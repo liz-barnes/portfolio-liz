@@ -1,3 +1,4 @@
+////////////// Nightshade
 import Abbie from '../../images/Nightshade/LeadershipGraphics/Abbie.png'
 import Ryan from '../../images/Nightshade/LeadershipGraphics/Ryan.png'
 import Lauren from '../../images/Nightshade/LeadershipGraphics/Lauren.png'
@@ -16,10 +17,11 @@ import TryoutSignUp from '../../images/Nightshade/GeneralAnnouncements/TryoutSig
 import ThrowShade from '../../images/Nightshade/GeneralAnnouncements/ThrowShade.png'
 import OpenTryout from '../../images/Nightshade/GeneralAnnouncements/OpenTryout.png'
 import OpenTryout1 from '../../images/Nightshade/GeneralAnnouncements/OpenTryout1.png'
-
 import OpenTryout2 from '../../images/Nightshade/GeneralAnnouncements/OpenTryout2.png'
 import HailMaryOrange from '../../images/TLP/Graphics/HAIL_MARY_ORANGE_18x24.png'
 import HailMaryWhite from '../../images/TLP/Graphics/HAIL_MARY_WHITE_18x24.png'
+
+//////////////// TLP
 import JumpPass from '../../images/TLP/Graphics/JUMP_PASS_WHITE.png'
 import RoadWin from '../../images/TLP/Graphics/ROAD_WIN_RED.png'
 import RoseBowl from '../../images/TLP/Graphics/ROSE_BOWL.png'
@@ -36,6 +38,7 @@ import Rivalry from '../../images/TLP/Graphics/RIVALRY_WIN_GOLD.png'
 import Texas from '../../images/TLP/Graphics/TEXAS_ROSE.png'
 import OT from '../../images/TLP/Graphics/OT_CHAMPIONSHIP_WIN_CRIMSON.png'
 
+//////////////// TRG
 import LogoPresentation from '../../images/TLP/Logo/TLP_Logo_Design_Presentation.png'
 import TRGLogoPresentation from '../../images/TRG/TRG_Logo_Design_Presentation.png'
 
