@@ -19,7 +19,7 @@ export const DevelopmentPage = () => {
   return (
     <div>
       <NavBar />
-      <div className="projects">
+      <div className="projects page">
         {projects.map((proj, i) => (
           <div
             className={

@@ -20,7 +20,7 @@ export const DesignPage = () => {
       {/* <div>
         <h5 className='tbd'>Design work will be uploaded soon! {`:)`}</h5>
       </div> */}
-      <div className="projects">
+      <div className="projects page">
         {projects.map((proj, i) => (
           <div
             className={
