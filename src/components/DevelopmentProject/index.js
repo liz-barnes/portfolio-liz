@@ -14,8 +14,7 @@ export const DevelopmentProject = () => {
       <div className="development-project-page">
         <h3>{project.title}</h3>
         <h6>{project.type}</h6>
-        <p>{project.company}</p>
-
+        <p>{project.role}</p>
         <h4>What I did:</h4>
         <ul>
           {project.work.map((i) => (

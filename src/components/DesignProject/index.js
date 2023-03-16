@@ -2,6 +2,8 @@ import { useLocation } from 'react-router-dom'
 import { Footer } from '../Footer'
 import { NavBar } from '../NavBar'
 import './index.scss'
+import { LazyLoadImage } from 'react-lazy-load-image-component'
+import 'react-lazy-load-image-component/src/effects/blur.css'
 
 export const DesignProject = () => {
   const location = useLocation()
@@ -23,7 +25,12 @@ export const DesignProject = () => {
                 >
                   <div className="design-item">
                     <div className={`image ${design.border ? 'border' : ''}`}>
-                      <img src={design.image} alt={''} />
+                      <LazyLoadImage
+                        src={design.image}
+                        alt={''}
+                        placeholderSrc={design.image}
+                        effect="blur"
+                      />
                     </div>
                   </div>
                 </div>
