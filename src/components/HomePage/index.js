@@ -44,9 +44,8 @@ export const HomePage = () => {
           <h5>Designer</h5>
           <p>
             My passion first fixated on design while making graphics for my
-            sports team in 2018. I value collaborating with my clients to
-            understand their product and vision and bringing that vision to
-            life.
+            sports team in 2018. I value collaborating with clients to
+            understand the vision for their product and bringing it all to life.
           </p>
           <h6>What I design:</h6>
           <ul>
@@ -62,7 +61,7 @@ export const HomePage = () => {
             <li>Figma</li>
             <li>Pen & Paper</li>
             <li>WHITEBOARD</li>
-            <li>Fotn Awesome</li>
+            <li>Font Awesome</li>
           </ul>
         </div>
         <div className="skills-card">
@@ -72,14 +71,13 @@ export const HomePage = () => {
             gives me the opportunity to express my creativity, while meeting a
             challenge every step of the way.
           </p>
-          <h6>Languages:</h6>
+          <h6>Languages/Frameworks:</h6>
           <ul>
             <li>Javascript</li>
             <li>React</li>
             <li>HTML</li>
             <li>CSS / SASS</li>
             <li>Typsescript</li>
-            <li>Git</li>
           </ul>
           <h6>Tools:</h6>
           <ul>
@@ -89,7 +87,8 @@ export const HomePage = () => {
             <li>Postman</li>
             <li>Figma</li>
             <li>Bootstrap</li>
-            <li>Stack Overflow</li>
+            <li>Font Awesome</li>
+            <li>Git</li>
           </ul>
         </div>
       </div>
