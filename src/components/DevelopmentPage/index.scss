@@ -23,19 +23,16 @@ h6 {
 }
 
 .project-description {
-  display: none;
+  color: $primary-color;
   p {
     font-weight: 300;
   }
 }
 
-.project-container:hover {
+.project-container {
   border: 1px solid lightgray;
   border-radius: 25px;
-  .project-description {
-    display: block;
-    color: $primary-color;
-  }
+  margin-bottom: 25px;
 }
 
 .button-group {
