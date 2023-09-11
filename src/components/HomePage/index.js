@@ -1,6 +1,7 @@
 import { NavBar } from '../NavBar'
 import './index.scss'
-import lizHeadshot from '../../images/liz-headshot.png'
+import iconDesktop from '../../images/Icons/IconDesktop.png'
+import iconUX from '../../images/Icons/IconUX.png'
 import { Footer } from '../Footer'
 // import { Button } from "react-bootstrap"
 
@@ -21,55 +22,22 @@ export const HomePage = () => {
       </div>
       <div className="skills">
         <div className="skills-card">
-          <h5>Designer</h5>
+          <span className='skills-card-header'>
+          <img className="image" src={iconDesktop} alt="desktop icon" />
+          <h5>Software Development</h5>
+          </span>
           <p>
-            My passion first fixated on design while making graphics for my
-            sports team in 2018. I value collaborating with clients to
-            understand the vision for their product and bringing it all to life.
+          Specializing in frontend development, I breathe life into designs with pixel-perfect precision. My expertise in React, JavaScript, and TypeScript ensures that user interfaces are not only functional but also responsive and visually engaging.
           </p>
-          <h6>What I design:</h6>
-          <ul>
-            <li>UX / UI</li>
-            <li>Websites</li>
-            <li>Graphics</li>
-            <li>Logos</li>
-            <li>Personalized Gifts</li>
-            <li>Jersey Designs</li>
-          </ul>
-          <h6>Tools:</h6>
-          <ul>
-            <li>Figma</li>
-            <li>Pen & Paper</li>
-            <li>WHITEBOARD</li>
-            <li>Font Awesome</li>
-          </ul>
         </div>
         <div className="skills-card">
-          <h5>Frontend Developer</h5>
+        <span className='skills-card-header'>
+          <img className="image" src={iconUX} alt="UX/UI icon" />
+          <h5>UX/UI</h5>
+          </span>
           <p>
-            I enjoy visualizing an idea and bringing it to fruition. Coding
-            gives me the opportunity to express my creativity, while meeting a
-            challenge every step of the way.
+          Passionate about crafting intuitive and visually appealing user experiences. From wireframing to implementation, I focus on creating interfaces that captivate and delight users, ensuring products are both functional and aesthetically pleasing.
           </p>
-          <h6>Languages/Frameworks:</h6>
-          <ul>
-            <li>Javascript</li>
-            <li>React</li>
-            <li>HTML</li>
-            <li>CSS / SASS</li>
-            <li>Typsescript</li>
-          </ul>
-          <h6>Tools:</h6>
-          <ul>
-            <li>Github</li>
-            <li>JIRA</li>
-            <li>VSCode</li>
-            <li>Postman</li>
-            <li>Figma</li>
-            <li>Bootstrap</li>
-            <li>Font Awesome</li>
-            <li>Git</li>
-          </ul>
         </div>
       </div>
       <Footer />
