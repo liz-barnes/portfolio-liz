@@ -19,27 +19,6 @@ export const HomePage = () => {
           <Button>Reach Out</Button>
         </div> */}
       </div>
-      <div className="bio">
-        <div className="headshot">
-          <img className="image" src={lizHeadshot} alt="headshot of liz" />
-        </div>
-        <div className="intro">
-          <h3>Hello, I'm Liz</h3>
-          <p>
-            I grew up in Tennessee and now reside in central Oregon. I live for
-            the outdoors and building up my communities. I am an athlete, avid
-            adventurer, and a lifelong learner. My experience includes creating
-            graphics, logos, UX / UI, wireframes and websites. I have written
-            code remotely for tech companies, assisted a professional sports
-            team with rebranding and content, and designed logos and graphics
-            for startups.
-          </p>
-          {/* Uncomment with contact button */}
-          {/* <div className="button-container">
-              <Button>Reach out!</Button>
-          </div> */}
-        </div>
-      </div>
       <div className="skills">
         <div className="skills-card">
           <h5>Designer</h5>
