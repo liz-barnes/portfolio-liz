@@ -4,7 +4,8 @@ import iconDesktop from '../../images/Icons/IconDesktop.png'
 import iconUX from '../../images/Icons/IconUX.png'
 import iconBridge from '../../images/Icons/IconBridge.png'
 import { Footer } from '../Footer'
-import { Button } from "react-bootstrap"
+import { Button } from 'react-bootstrap'
+import resume from '../../images/elizabeth_barnes_resume_.pdf'
 
 export const HomePage = () => {
   return (
@@ -18,8 +19,15 @@ export const HomePage = () => {
           product, design, and engineering.
         </p>
         <div className="button-container">
-          <Button>Download CV</Button>
-          <Button>Reach Out</Button>
+          <Button
+            className='button'
+            href={resume}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download CV
+          </Button>
+          <Button className='button'>Reach Out</Button>
         </div>
       </div>
       <div className="skills">
@@ -50,7 +58,6 @@ export const HomePage = () => {
         <div className="skills-card">
           <span className="skills-card-header">
             <img className="icon" src={iconBridge} alt="bridge icon" />
-
             <h5>Bridging the Gap</h5>
           </span>
           <p>
