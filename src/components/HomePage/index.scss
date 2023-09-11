@@ -7,30 +7,39 @@
 }
 
 .banner {
-  max-height: calc(100vh - 200px);
+  height: calc(100vh - 200px);
   text-align: center;
   margin-top: 115px;
   h1 {
-    font-size: $h1;
-    font-family: $secondary-font;
-    font-weight: 400 !important;
-    margin: 15px 0px;
+    font-size: 48px;
+    font-family: $primary-font;
+    font-weight: 500 !important;
+    letter-spacing: -2px;
+    margin: 15px 0px 0px 0px;
+  }
+  h2 {
+    font-size: 32px;
+    font-family: $primary-font;
+    font-weight: 300 !important;
+    margin: -3px;
+    padding-bottom: 15px;
   }
   h1,
   p {
-    z-index: 1 !important;
-    position: relative;
+    max-width: 50% !important;
+    margin: auto;
   }
-}
 
-.image-container {
-  margin-top: -110px;
-  position: relative;
-  img {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+  p {
+    font-weight: lighter;
+    font-size: 24px;
+    padding-bottom: 50px;
   }
+
+  // Button {
+  //   background-color: $terra-cotta;
+  //   border: none;
+  // }
 }
 
 .bio {
