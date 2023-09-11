@@ -4,6 +4,20 @@
   .navbar {
     background-color: transparent;
   }
+  .footer {
+    .icon-link, .icon-link:hover {
+      border: none;
+    }
+    .icon-link:hover {
+      background-color: $white;
+      .icon {
+        color: $golden !important;
+      }
+    }
+    .icon, .copyright {
+      color: $white;
+    }
+  }
 }
 
 .banner {
