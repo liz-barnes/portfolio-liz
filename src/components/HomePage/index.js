@@ -4,7 +4,7 @@ import iconDesktop from '../../images/Icons/IconDesktop.png'
 import iconUX from '../../images/Icons/IconUX.png'
 import iconBridge from '../../images/Icons/IconBridge.png'
 import { Footer } from '../Footer'
-// import { Button } from "react-bootstrap"
+import { Button } from "react-bootstrap"
 
 export const HomePage = () => {
   return (
@@ -17,10 +17,10 @@ export const HomePage = () => {
           Passionate about UX/UI and dedicated to bridging the gap between
           product, design, and engineering.
         </p>
-        {/* <div className="button-container">
+        <div className="button-container">
           <Button>Download CV</Button>
           <Button>Reach Out</Button>
-        </div> */}
+        </div>
       </div>
       <div className="skills">
         <div className="skills-card">
