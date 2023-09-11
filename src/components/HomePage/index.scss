@@ -42,103 +42,56 @@
   // }
 }
 
-.bio {
-  padding-top: 90px;
-  height: 100vh;
-  background-color: $golden;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  .headshot {
-    img {
-      position: relative;
-      z-index: 1;
-      object-fit: cover !important;
-      width: 375px;
-      height: 375px;
-      border-radius: 50%;
-      border: solid 3px $beige;
-    }
-  }
-
-  .intro {
-    padding-left: 100px;
-    max-width: 35%;
-
-    h3 {
-      font-family: $secondary-font;
-      font-size: $h3;
-      font-weight: 100;
-      text-align: center;
-      margin: 0;
-      padding-top: 65px;
-    }
-
-    h3,
-    p {
-      color: $beige;
-    }
-
-    p {
-      line-height: 1.4;
-      font-weight: 300;
-      text-align: center;
-    }
-    // Uncomment with contact button
-    // .button-container {
-    //   width: 100%;
-    //   display: flex;
-
-    //   Button {
-    //     font-family: $primary-font;
-    //   padding: 15px 30px;
-    //   border-radius: 50px;
-    //   border: solid 2px $beige;
-    //   color: $beige;
-    //   background-color: $dark-green;
-    //   font-size: 16px;
-    //   margin: auto;
-    //   margin-top: 25px;
-    //   }
-    // }
-  }
-}
-
 .skills {
-  margin-top: -225px;
-  padding-top: 60px;
+  height: calc(100vh - 252px);
+  background-color: $morning-blue;
+  padding: 80px 75px 175px 75px;
   display: flex;
   justify-content: center;
-  padding-bottom: 175px;
+  align-items: stretch !important;
   .skills-card {
-    text-align: center;
-    background-color: $light-green;
-    height: fit-content;
-    width: fit-content;
-    padding: 35px 60px;
-    margin: 25px;
-    border-radius: 25px;
-    max-width: 25%;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    font-family: $primary-font;
+    max-width: 350px;
+    background-color: $white;
+    border: $golden 3px solid;
+    &:nth-child(2), &:nth-child(3) {
+      margin-left: -2px;
+    }
+    &:first-child {
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 25px;
+    }
+    &:last-child {
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+  
+    .skills-card-header {
+      margin: 80px 15px 15px 15px;
+      display: flex !important;
+      .icon {
+        height: 75px;
+        color: $golden;
+      }
+    }
+
     h5 {
+      max-width: 300px;
       margin: 0;
-      font-family: $secondary-font;
-      font-weight: 100;
       font-size: $h5;
+      font-weight: 600;
       letter-spacing: 0.25px;
+      color: $terra-cotta;
+      text-align: left;
+      padding-left: 10px;
+      align-self: center;
     }
-    h6 {
-      margin: 0;
-      padding-top: 65px;
-      font-size: $h6;
-      font-family: $primary-font;
-      font-weight: 500;
-    }
-    ul {
-      padding: 0;
-      margin: 0;
-      list-style: none;
+    p {
+      color: $primary-color;
       font-weight: 300;
+      padding: 5px 25px 50px 35px;
+      max-width: 300px;
+      text-align: left;
     }
   }
 }
