@@ -3,19 +3,21 @@ import './index.scss'
 import lizHeadshot from '../../images/liz-headshot.png'
 import { Footer } from '../Footer'
 import landscape from '../../images/landscape-vector.png'
-// import { Button } from "react-bootstrap"
+import { Button } from "react-bootstrap"
 
 export const HomePage = () => {
   return (
     <div className="home-page">
       <NavBar />
       <div className="banner">
-        <h1>Designer & Frontend Developer</h1>
+        <h1>Hi, I'm Liz</h1>
+        <h2>Software Engineer</h2>
         <p>
-          I'm all about the visuals –– let's build something beautiful together
+        Passionate about UX/UI and dedicated to bridging the gap between product, design, and engineering.
         </p>
-        <div className="image-container">
-          <img src={landscape} alt="landscape design" />
+        <div className="button-container">
+          <Button>Download CV</Button>
+          <Button>Reach Out</Button>
         </div>
       </div>
       <div className="bio">
@@ -34,9 +36,9 @@ export const HomePage = () => {
             for startups.
           </p>
           {/* Uncomment with contact button */}
-          {/* <div className="button-container">
+          <div className="button-container">
                     <Button>Reach out!</Button>
-                </div> */}
+                </div>
         </div>
       </div>
       <div className="skills">
