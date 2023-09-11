@@ -43,7 +43,7 @@
 }
 
 .skills {
-  height: calc(100vh - 252px);
+  // height: calc(100vh - 252px);
   background-color: $morning-blue;
   padding: 80px 75px 175px 75px;
   display: flex;
@@ -52,6 +52,7 @@
   .skills-card {
     font-family: $primary-font;
     max-width: 350px;
+    min-width: 320px;
     background-color: $white;
     border: $golden 3px solid;
     &:nth-child(2), &:nth-child(3) {
@@ -76,7 +77,7 @@
     }
 
     h5 {
-      max-width: 300px;
+      width: 300px;
       margin: 0;
       font-size: $h5;
       font-weight: 600;
@@ -103,103 +104,56 @@
       padding-bottom: 120px;
     }
   }
-  .bio {
-    padding-top: 90px;
-    height: 100vh;
-    background-color: $dark-green;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    .headshot {
-      img {
-        margin-top: 80px;
-        width: 275px !important;
-        height: 275px !important;
-      }
-    }
-    .intro {
-      padding-left: 5%;
-      max-width: 35%;
-    }
-  }
   .skills {
-    margin-top: -210px;
-    width: 100%;
+    flex-wrap: wrap;
   }
   .skills-card {
     text-align: center;
-    background-color: $light-green;
     height: fit-content;
     width: fit-content;
-    padding: 35px 35px !important;
-    margin: 10px !important;
-    border-radius: 25px;
     max-width: 30% !important;
     min-width: 215px;
+    &:nth-child(2) {
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+    }
+    &:last-child {
+      border-top-right-radius: 0px !important;
+      border-bottom-left-radius: 25px;
+      margin-top: -2px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .skills {
+    flex-direction: column;
+    align-content: center;
+    .skills-card {
+      &:first-child {
+        border-top-right-radius: 25px;
+        border-bottom-left-radius: 0px;
+      }
+      &:nth-child(2) {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        margin-top: -2px;
+      }
+      &:nth-child(2), &:nth-child(3) {
+        margin-left: 0;
+      }
+    }
   }
 }
 
 @media screen and (max-width: 660px) {
-  .bio {
-    flex-wrap: wrap;
-    padding-top: 25px !important;
-    .headshot {
-      img {
-        object-fit: cover !important;
-        width: 15rem !important;
-        height: 15rem !important;
-        border-radius: 50%;
-        border: solid 3px $beige;
-      }
-    }
-
-    .intro {
-      max-width: 90% !important;
-      h3 {
-        padding-top: 5px !important;
-        font-size: $h5;
-      }
-      max-width: 75%;
-      padding-bottom: 200px;
-      p {
-        margin-top: 5px !important;
-        font-size: 16px;
-      }
-    }
-  }
-
-  .skills {
-    margin-top: -150px;
-    flex-wrap: wrap;
-    .skills-card {
-      p,
-      li {
-        font-size: 14px;
-      }
+  .skills-card-header {
+    .icon {
+      height: 75px !important;
     }
   }
 }
 
 @media screen and (max-width: 360px) {
-  .bio {
-    padding-top: 65px !important;
-    .intro {
-      max-width: 80% !important;
-      h3 {
-        font-size: 20px;
-      }
-    }
-  }
-  .skills {
-    margin-top: -140px;
-    .skills-card {
-      h6 {
-        padding-top: 35px;
-      }
-      p,
-      li {
-        font-size: 16px;
-      }
-    }
-  }
+
 }
