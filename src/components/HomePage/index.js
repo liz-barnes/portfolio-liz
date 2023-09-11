@@ -20,14 +20,16 @@ export const HomePage = () => {
         </p>
         <div className="button-container">
           <Button
-            className='button'
+            className="button"
             href={resume}
             target="_blank"
             rel="noreferrer"
           >
             Download CV
           </Button>
-          <Button className='button'>Reach Out</Button>
+          <Button className="button" href="mailto:embarnes95@gmail.com">
+            Reach Out
+          </Button>
         </div>
       </div>
       <div className="skills">
