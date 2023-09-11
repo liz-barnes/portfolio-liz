@@ -2,6 +2,7 @@ import { NavBar } from '../NavBar'
 import './index.scss'
 import iconDesktop from '../../images/Icons/IconDesktop.png'
 import iconUX from '../../images/Icons/IconUX.png'
+import iconBridge from '../../images/Icons/IconBridge.png'
 import { Footer } from '../Footer'
 // import { Button } from "react-bootstrap"
 
@@ -24,7 +25,7 @@ export const HomePage = () => {
       <div className="skills">
         <div className="skills-card">
           <span className="skills-card-header">
-            <img className="image" src={iconDesktop} alt="desktop icon" />
+            <img className="icon" src={iconDesktop} alt="desktop icon" />
             <h5>Software Development</h5>
           </span>
           <p>
@@ -36,7 +37,7 @@ export const HomePage = () => {
         </div>
         <div className="skills-card">
           <span className="skills-card-header">
-            <img className="image" src={iconUX} alt="UX/UI icon" />
+            <img className="icon" src={iconUX} alt="UX/UI icon" />
             <h5>UX/UI</h5>
           </span>
           <p>
@@ -44,6 +45,19 @@ export const HomePage = () => {
             experiences. From wireframing to implementation, I focus on creating
             interfaces that captivate and delight users, ensuring products are
             both functional and aesthetically pleasing.
+          </p>
+        </div>
+        <div className="skills-card">
+          <span className="skills-card-header">
+            <img className="icon" src={iconBridge} alt="bridge icon" />
+
+            <h5>Bridging the Gap</h5>
+          </span>
+          <p>
+            As a bridge between product, design, and engineering, I thrive on
+            facilitating seamless collaboration. My commitment to effective
+            communication ensures that teams work harmoniously to transform
+            visions into tangible, user-centric products.
           </p>
         </div>
       </div>
