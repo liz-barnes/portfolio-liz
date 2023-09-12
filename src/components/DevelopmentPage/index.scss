@@ -10,61 +10,37 @@
 }
 
 h3 {
-  font-family: $secondary-font;
-  font-size: $h3;
-  font-weight: 100;
+  font-family: $primary-font;
+  font-size: $h1;
+  font-weight: 600;
   margin: 0;
+  color: $terra-cotta;
 }
 
 h6 {
-  font-size: $h6;
+  font-size: $h5;
   font-weight: 300;
   margin: 0;
+}
+
+.tech-button {
+    background-color: $golden;
+    border: none;
+    margin: 15px 5px 15px 0px;
+    padding: 10px 15px;
+    border-radius: 25px !important;
+    color: $white;
+    font-family: $primary-font;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
 }
 
 .project-description {
   color: $primary-color;
   p {
     font-weight: 300;
-  }
-}
-
-.project-container {
-  border: 1px solid lightgray;
-  border-radius: 25px;
-  margin-bottom: 25px;
-}
-
-.button-group {
-  text-align: center;
-  padding-top: 30px;
-  Button {
-    font-family: $primary-font;
-    padding: 10px 12px;
-    margin: 0px 10px;
-    border: solid 1.5px $light-gray;
-    color: $primary-color;
-    background-color: $white;
-    font-size: 16px;
-  }
-
-  Button:hover {
-    background-color: $dark-green;
-    border: 1.5px solid $light-green;
-    color: $white;
-    cursor: pointer;
-  }
-}
-
-.tools-section {
-  display: flex;
-  margin-top: 25px;
-  strong {
-    margin-right: 5px;
-  }
-  .tools-icon {
-    margin: 0px 5px;
-    font-size: 20px;
   }
 }
 
