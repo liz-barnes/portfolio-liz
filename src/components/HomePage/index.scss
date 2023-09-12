@@ -5,13 +5,16 @@
     background-color: transparent;
   }
   .footer {
+    .socials {
+      background-color: transparent;
+    }
     .icon-link, .icon-link:hover {
       border: none;
     }
     .icon-link:hover {
       background-color: $white;
       .icon {
-        color: $golden !important;
+        color: $morning-blue !important;
       }
     }
     .icon, .copyright {
