@@ -1,13 +1,32 @@
-import {faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faBootstrap, faNode, faJira } from '@fortawesome/free-brands-svg-icons'
+import {
+  faReact,
+  faFigma,
+  faSquareJs,
+  faFontAwesomeAlt,
+  faSass,
+  faBootstrap,
+  faNode,
+  faJira,
+} from '@fortawesome/free-brands-svg-icons'
 
 export const projects = [
   {
     title: 'Built Technologies',
-    type: 'Full Stack Software Engineer',
-    company: 'Built Technologies is the leading provider of construction finance technology.',
+    type: 'Software Engineer',
+    company:
+      'Built Technologies is the leading provider of construction finance technology.',
     description:
       'I developed and maintained user-friendly and efficient front-end applications using React and TypeScript. I worked closely with cross-functional teams to gather requirements and implement features.',
-    tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faNode, faJira],
+    tools: [
+      faReact,
+      faFigma,
+      faSquareJs,
+      faFontAwesomeAlt,
+      faSass,
+      faNode,
+      faJira,
+    ],
+    tech: ['React', 'TypeScript', 'Figma'],
     work: [
       'Developed and maintained user-friendly and efficient front-end applications using React and TypeScript',
       'Worked closely with cross-functional teams to gather requirements and implement features',
@@ -22,8 +41,10 @@ export const projects = [
       'Implemented UI features such as widgets, tables, cards, modals, forms, navigation and tabs',
     ],
     info: true,
-    role: 'Built Technologies is the leading provider of construction finance technology. ts collaboration software brings the draw management process online and helps reduce construction loan risk, increases loan profitability, transforms the borrower experience, and simplifies compliance.',
-    url: 'BuiltTechnologies'
+    blurb:
+      'Built Technologies is the leading provider of construction finance technology. ts collaboration software brings the draw management process online and helps reduce construction loan risk, increases loan profitability, transforms the borrower experience, and simplifies compliance.',
+    role: 'During my tenure as a Software Engineer at Built Technologies, I achieved significant milestones and fulfilled various responsibilities. I spearheaded a project that assessed React component reusability, reducing development workload by an impressive 88%. Collaborating seamlessly with design and product teams, I facilitated alignment and identified missing requirements to enhance project efficiency. Additionally, I identified process improvements in our Jira workflow, boosting team productivity by 200%. My contributions extended to implementing user-friendly frontend solutions that improved the overall user experience, leading to heightened client satisfaction and engagement. Furthermore, I collaborated with backend engineers to optimize data flow between frontend and backend systems, enhancing system performance and reliability. My active involvement in sprint planning and backlog grooming sessions played a vital role in ensuring the timely delivery of top-quality software.',
+    url: 'BuiltTechnologies',
   },
   {
     title: 'Portfolio',
@@ -32,18 +53,23 @@ export const projects = [
       'This portfolio website was designed to show case my work and provide a place for others to learn more about me and reach out for job opportunities, services or collaboration.',
     githubLink: 'https://github.com/liz-barnes/portfolio-liz',
     // websiteLink: 'https://lizmarie-portfolio.netlify.app',
-    tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faBootstrap]
+    tools: [
+      faReact,
+      faFigma,
+      faSquareJs,
+      faFontAwesomeAlt,
+      faSass,
+      faBootstrap,
+    ],
   },
   {
     title: `Nashville 'Shine`,
     type: 'UX & Website Design',
     company: `Nashville 'Shine is a Mixed Ultimate Frisbee Club Team.`,
-    description:
-      `My objective was to create a website that promotes visibility for 'Shine, increases team and player awareness, showcases personality, and improves online presence with a modern website design.`,
+    description: `My objective was to create a website that promotes visibility for 'Shine, increases team and player awareness, showcases personality, and improves online presence with a modern website design.`,
     githubLink: 'https://github.com/liz-barnes/nashville-shine-ultimate',
     websiteLink: 'https://nashvilleshineultimate.netlify.app/',
-    tools: [faReact, faFigma, faSquareJs, faSass]
-
+    tools: [faReact, faFigma, faSquareJs, faSass],
   },
   // {
   //   title: `Adventure Planner`,
@@ -63,6 +89,6 @@ export const projects = [
   //   githubLink: 'https://github.com/liz-barnes/backend-capstone2.0',
   //   websiteLink: 'https://vanlife-sanity.netlify.app',
   // },
-];
+]
 
-export default projects;
+export default projects
