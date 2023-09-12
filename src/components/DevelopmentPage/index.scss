@@ -23,11 +23,16 @@ h6 {
   margin: 0;
 }
 
+.project-tech {
+  margin-top: 15px;
+}
+
 .tech-button {
     background-color: $golden;
     border: none;
-    margin: 15px 5px 15px 0px;
-    padding: 10px 15px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    padding: 8px 20px;
     border-radius: 25px !important;
     color: $white;
     font-family: $primary-font;
@@ -52,12 +57,6 @@ h6 {
 @media screen and (max-width: 575px) {
   .projects {
     padding: 75px 45px 200px 45px;
-  }
-
-  Button {
-    padding: 15px 10px !important;
-    justify-content: space-between;
-    font-size: 15px !important;
   }
 }
 
@@ -86,23 +85,5 @@ h6 {
   p {
     font-size: 16px;
   }
-  .button-group {
-    button:first-of-type {
-      border-bottom-left-radius: 10px;
-      border-top-left-radius: 10px;
-    }
-    button:last-of-type {
-      border-bottom-right-radius: 10px;
-      border-top-right-radius: 10px;
-    }
 
-    button {
-      font-size: 15px;
-      background-color: transparent;
-      color: $primary-color;
-      border: 1px solid $light-gray;
-      padding: 7px !important;
-      margin: 0 !important;
-    }
-  }
 }
