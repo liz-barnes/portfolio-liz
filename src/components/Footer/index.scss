@@ -7,30 +7,32 @@
 
   .socials {
     display: flex !important;
-    padding-top: 35px;
+    margin-top: 35px;
     justify-content: center;
+    margin: auto;
+    background-color: $terra-cotta;
+    width: 175px;
+    border-radius: 25px;
   }
   .icon-link {
-    margin: 0px 0.5rem;
-    background-color: transparent;
     border-radius: 100%;
-    height: 50px;
-    width: 50px;
-    border: 1px solid $primary-color;
-    justify-content: space-around;
+    height: 40px;
+    width: 40px;
     display: flex;
   }
   .icon-link:hover {
-    background-color: $light-green;
-    border: 1px solid $dark-green;
+    background-color: $white;
+    .icon {
+      color: $golden !important;
+    }
   }
   .icon {
     margin: auto;
-    height: 37px;
-    color: $primary-color;
+    height: 30px;
+    color: $white;
     &.fa-envelope,
     &.fa-linkedin {
-      height: 32px;
+      height: 24px;
     }
   }
   .copyright {
@@ -41,9 +43,6 @@
 }
 
 @media screen and (max-width: 660px) {
-  .socials {
-    padding-top: 20px !important;
-  }
   .icon-link {
     margin: 0px 0.2rem !important;
     height: 35px !important;
