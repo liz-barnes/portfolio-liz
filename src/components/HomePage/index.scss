@@ -26,9 +26,10 @@
 .banner {
   background: url(../../images/HomePageGraphics.png);
   background-size: cover;
-  height: calc(100vh - 200px);
+  height: calc(100vh - 250px);
   text-align: center;
-  padding: 115px 500px 0px 50px;
+  padding: 170px 40% 0px 7%;
+  margin-right: 25px;
   h1 {
     font-size: 48px;
     font-family: $primary-font;
