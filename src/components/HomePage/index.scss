@@ -204,6 +204,42 @@
   }
 }
 
+@media screen and (max-width: 619px) {
+  .banner {
+    padding: 70px 35px 0px 35px;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .banner {
+    padding: 60px 35px 0px 35px;
+    height: calc(100vh - 160px);
+    h1 {
+      font-size: 38px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+    p {
+      font-size: 20px;
+      padding-bottom: 65px;
+    }
+    .button {
+      font-size: 16px;
+      padding: 8px 15px;
+    }
+
+  }
+}
+
 @media screen and (max-width: 360px) {
 
 }
+
+@media screen and (max-width: 348px) {
+  .banner {
+    padding: 60px 10px 0px 10px;
+  }
+
+}
+
