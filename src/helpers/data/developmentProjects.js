@@ -68,6 +68,7 @@ export const projects = [
       faBootstrap,
     ],
     tech: ['React', 'Figma', 'EmailJS', 'FontAwesome', 'Custom Icons'],
+    role: `Designed with the intention of showcasing my work and creating a platform for connecting with potential job opportunities, collaborations, and services, this site reflects my commitment to clean, user-friendly design. Crafted with React and JavaScript, I meticulously designed custom icons and ensured the site's responsiveness across all screen sizes. Additionally, to enhance user experience, I implemented a seamless dark/light mode feature. Here, you'll find a curated collection of my projects, learn more about my background, and have the opportunity to get in touch.`,
   },
   // {
   //   title: `Nashville 'Shine`,
