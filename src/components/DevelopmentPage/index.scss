@@ -70,6 +70,20 @@ h6 {
   p {
     font-weight: 300;
   }
+  ul {
+    padding-left: 15px !important;
+  }
+  li {
+    list-style-type: disc;
+    font-family: $primary-font;
+    color: $primary-color;
+    font-weight: 300;
+    margin-bottom: 5px;
+    padding: 0px !important;
+    &::marker {
+    color: $primary-color;
+    }
+  }
 }
 
 @media screen and (max-width: 960px) {
