@@ -38,7 +38,9 @@ export const DevelopmentPage = () => {
                   ))}
               </div>
               <div className="project-description">
-                <p>{proj.role}</p>
+                <ul>
+                  {proj.role.length && proj.role.map((desc) => <li>{desc}</li>)}
+                </ul>
               </div>
             </div>
           </div>
