@@ -39,7 +39,22 @@ h6 {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.5px;
+}
 
+.design-page-container {
+  display: flex;
+  justify-content: space-between;
+  .project-button {
+    align-self: end;
+    margin-bottom: 30px;
+  }
+  .arrow-icon {
+    color: $primary-color;
+    height: 20px;
+  }
+  .arrow-icon:hover {
+    color: $golden;
+  }
 }
 
 .project-description {
