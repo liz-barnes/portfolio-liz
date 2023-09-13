@@ -26,7 +26,7 @@ export const projects = [
       faNode,
       faJira,
     ],
-    tech: ['React', 'TypeScript', 'Figma'],
+    tech: ['JavaScript', 'React', 'TypeScript', 'Single-SPA', 'Microservices', 'SCSS', 'Node.js', 'Redux', 'RESTful APIs', 'Jest', 'Figma', 'Scrum', 'Postman'],
     work: [
       'Developed and maintained user-friendly and efficient front-end applications using React and TypeScript',
       'Worked closely with cross-functional teams to gather requirements and implement features',
@@ -50,7 +50,7 @@ export const projects = [
     title: 'Lyft Inc',
     type: 'Software Engineer Apprentice & UX/UI Designer',
     role: `During my tenure as a Software Engineer Apprentice at Lyft Inc, I achieved notable accomplishments and took on various responsibilities. I led the deployment of a critical feature that reduced routing errors from 30% to nearly 0%, vastly improving the accuracy and reliability of user interactions. I also introduced an innovative banner notification system, resulting in a 100% elimination of user contacts during 'Quiet Hours' and significantly enhancing user satisfaction. Additionally, I managed engineering request intake, optimizing task allocation based on impact and effort. Through a thorough investigation plan, I identified opportunities to improve agent efficiency, elevate the customer experience, and minimize incremental costs. My expertise in React and JavaScript played a pivotal role in developing and enhancing frontend components, contributing to the seamless and visually appealing user interface of Lyft's internal tools and applications.`,
-    tech: ['Javascript', 'React', 'Figma', 'JIRA'],
+    tech: ['JavaScript', 'React', 'TypeScript', 'CSS', 'Node.js', 'Redux', 'RESTful APIs', 'UX/UI', 'Figma', 'JIRA', 'Scrum', 'Postman'],
   },
   {
     title: 'Portfolio',
@@ -67,7 +67,7 @@ export const projects = [
       faSass,
       faBootstrap,
     ],
-    tech: ['React', 'Figma', 'EmailJS', 'FontAwesome', 'Custom Icons'],
+    tech: ['JavaScript', 'React', 'Lazy Load', 'UX/UI', 'Figma', 'FontAwesome', 'Custom Icons'],
     role: `Designed with the intention of showcasing my work and creating a platform for connecting with potential job opportunities, collaborations, and services, this site reflects my commitment to clean, user-friendly design. Crafted with React and JavaScript, I meticulously designed custom icons and ensured the site's responsiveness across all screen sizes. Additionally, to enhance user experience, I implemented a seamless dark/light mode feature. Here, you'll find a curated collection of my projects, learn more about my background, and have the opportunity to get in touch.`,
   },
   // {
