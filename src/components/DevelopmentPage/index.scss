@@ -7,6 +7,9 @@
 
 .project-content {
   padding: 30px 50px;
+  a {
+    text-decoration: none;
+  }
 }
 
 h3 {
@@ -105,23 +108,4 @@ h6 {
   .project-content {
     padding: 30px 35px;
   }
-}
-
-.mobile-project-container {
-  border: 1px solid lightgray;
-  border-radius: 25px;
-  margin-bottom: 50px;
-  .project-description {
-    display: block;
-  }
-  h3 {
-    font-size: 24px !important;
-  }
-  h6 {
-    font-size: 16px;
-  }
-  p {
-    font-size: 16px;
-  }
-
 }
