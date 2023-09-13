@@ -55,6 +55,14 @@ export const projects = [
     dates: 'Nov 2020 - Sept 2021'
   },
   {
+    title: 'Nashville Software School',
+    type: 'Full-Stack Software Developer',
+    role: ['Acknowledged with the prestigious Organizer Award, an accolade voted by peers, in recognition of outstanding planning, organization, and leadership skills. Consistently initiated and coordinated activities that fostered team cohesion and collaboration.', 'Collaborated closely with fellow classmates on diverse team projects, contributing to the creation of single-page CRUD web applications. Leveraged technologies including React, JavaScript, TypeScript, and C#/.NET to develop robust and user-friendly applications.'],
+    tech: ['JavaScript', 'React', 'TypeScript', 'CSS', 'HTML', 'C#/.NET', 'RESTful APIs', 'UX/UI', 'Figma', 'JIRA', 'Scrum', 'Postman', 'Firebase'],
+    dates: 'July 2020 - June 2021'
+  },
+  
+  {
     title: 'Portfolio',
     type: 'Website Design & Development',
     description:
