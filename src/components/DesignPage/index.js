@@ -1,8 +1,6 @@
-import { Button } from 'react-bootstrap'
 import { Footer } from '../Footer'
 import { NavBar } from '../NavBar'
 import projects from '../../helpers/data/designProjects'
-import { Link } from 'react-router-dom'
 
 export const DesignPage = () => {
   /* Storing user's device details in a variable*/
@@ -28,25 +26,6 @@ export const DesignPage = () => {
             <div className="project-content">
               <h3>{proj.title}</h3>
               <h6>{proj.type}</h6>
-              <div className="project-description">
-                {proj.company?.length && (
-                  <p>
-                    <strong>Who: </strong>
-                    {proj.company}
-                  </p>
-                )}
-                <p>
-                  {proj.company?.length && <strong>What: </strong>}
-                  {proj.description}
-                </p>
-                <div className="button-group">
-                  <Link className="" to={`/design/${proj.url}`} state={proj}>
-                    <Button>
-                      View Designs
-                    </Button>
-                  </Link>
-                </div>
-              </div>
             </div>
           </div>
         ))}
