@@ -45,12 +45,14 @@ export const projects = [
       'Built Technologies is the leading provider of construction finance technology. ts collaboration software brings the draw management process online and helps reduce construction loan risk, increases loan profitability, transforms the borrower experience, and simplifies compliance.',
     role: 'During my tenure as a Software Engineer at Built Technologies, I achieved significant milestones and fulfilled various responsibilities. I spearheaded a project that assessed React component reusability, reducing development workload by an impressive 88%. Collaborating seamlessly with design and product teams, I facilitated alignment and identified missing requirements to enhance project efficiency. Additionally, I identified process improvements in our Jira workflow, boosting team productivity by 200%. My contributions extended to implementing user-friendly frontend solutions that improved the overall user experience, leading to heightened client satisfaction and engagement. Furthermore, I collaborated with backend engineers to optimize data flow between frontend and backend systems, enhancing system performance and reliability. My active involvement in sprint planning and backlog grooming sessions played a vital role in ensuring the timely delivery of top-quality software.',
     url: 'BuiltTechnologies',
+    dates: 'Sept 2021 - Feb 2023'
   },
   {
     title: 'Lyft Inc',
     type: 'Software Engineer Apprentice & UX/UI Designer',
     role: `During my tenure as a Software Engineer Apprentice at Lyft Inc, I achieved notable accomplishments and took on various responsibilities. I led the deployment of a critical feature that reduced routing errors from 30% to nearly 0%, vastly improving the accuracy and reliability of user interactions. I also introduced an innovative banner notification system, resulting in a 100% elimination of user contacts during 'Quiet Hours' and significantly enhancing user satisfaction. Additionally, I managed engineering request intake, optimizing task allocation based on impact and effort. Through a thorough investigation plan, I identified opportunities to improve agent efficiency, elevate the customer experience, and minimize incremental costs. My expertise in React and JavaScript played a pivotal role in developing and enhancing frontend components, contributing to the seamless and visually appealing user interface of Lyft's internal tools and applications.`,
     tech: ['JavaScript', 'React', 'TypeScript', 'CSS', 'Node.js', 'Redux', 'RESTful APIs', 'UX/UI', 'Figma', 'JIRA', 'Scrum', 'Postman'],
+    dates: 'Nov 2020 - Sept 2021'
   },
   {
     title: 'Portfolio',
@@ -69,6 +71,7 @@ export const projects = [
     ],
     tech: ['JavaScript', 'React', 'Lazy Load', 'UX/UI', 'Figma', 'FontAwesome', 'Custom Icons'],
     role: `Designed with the intention of showcasing my work and creating a platform for connecting with potential job opportunities, collaborations, and services, this site reflects my commitment to clean, user-friendly design. Crafted with React and JavaScript, I meticulously designed custom icons and ensured the site's responsiveness across all screen sizes. Additionally, to enhance user experience, I implemented a seamless dark/light mode feature. Here, you'll find a curated collection of my projects, learn more about my background, and have the opportunity to get in touch.`,
+    dates: '2022 - 2023'
   },
   // {
   //   title: `Nashville 'Shine`,
