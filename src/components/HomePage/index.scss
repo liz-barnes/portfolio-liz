@@ -8,7 +8,8 @@
     .socials {
       background-color: transparent;
     }
-    .icon-link, .icon-link:hover {
+    .icon-link,
+    .icon-link:hover {
       border: none;
     }
     .icon-link:hover {
@@ -17,7 +18,8 @@
         color: $morning-blue !important;
       }
     }
-    .icon, .copyright {
+    .icon,
+    .copyright {
       color: $white;
     }
   }
@@ -82,7 +84,8 @@
     min-width: 320px;
     background-color: $white;
     border: $golden 3px solid;
-    &:nth-child(2), &:nth-child(3) {
+    &:nth-child(2),
+    &:nth-child(3) {
       margin-left: -2px;
     }
     &:first-child {
@@ -93,7 +96,7 @@
       border-top-right-radius: 25px;
       border-bottom-right-radius: 25px;
     }
-  
+
     .skills-card-header {
       margin: 80px 15px 15px 15px;
       display: flex !important;
@@ -189,7 +192,8 @@
         border-bottom-right-radius: 0px;
         margin-top: -2px;
       }
-      &:nth-child(2), &:nth-child(3) {
+      &:nth-child(2),
+      &:nth-child(3) {
         margin-left: 0;
       }
     }
@@ -233,7 +237,6 @@
 }
 
 @media screen and (max-width: 360px) {
-
 }
 
 @media screen and (max-width: 348px) {
@@ -242,4 +245,3 @@
   }
 
 }
-
