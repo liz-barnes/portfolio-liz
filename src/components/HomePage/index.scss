@@ -24,33 +24,31 @@
 }
 
 .banner {
+  background: url(../../images/HomePageGraphics.png);
+  background-size: cover;
   height: calc(100vh - 200px);
   text-align: center;
-  margin-top: 115px;
+  padding: 115px 500px 0px 50px;
   h1 {
     font-size: 48px;
     font-family: $primary-font;
-    font-weight: 500 !important;
+    font-weight: 500;
     letter-spacing: -2px;
     margin: 15px 0px 0px 0px;
   }
   h2 {
     font-size: 32px;
     font-family: $primary-font;
-    font-weight: 300 !important;
+    font-weight: 300;
     margin: -3px;
     padding-bottom: 15px;
-  }
-  h1,
-  p {
-    max-width: 50% !important;
-    margin: auto;
   }
 
   p {
     font-weight: lighter;
     font-size: 24px;
-    padding-bottom: 50px !important;
+    padding-bottom: 50px;
+    margin: 0;
   }
 
   .button {
