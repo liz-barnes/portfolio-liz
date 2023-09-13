@@ -9,11 +9,14 @@
     margin-top: 50px;
   }
   h1 {
-    font-family: $secondary-font;
-    font-weight: 100;
-    color: $primary-color;
+    font-family: $primary-font;
+    font-weight: 600;
+    color: $terra-cotta;
     letter-spacing: 0.75px;
     margin: 0;
+  }
+  h6 {
+    font-weight: 300;
   }
   h3 {
     font-family: $primary-font;
