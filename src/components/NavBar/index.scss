@@ -11,16 +11,16 @@
 
 .brand {
   text-decoration: none !important;
-  font-family: $secondary-font;
+  font-family: $primary-font;
   font-size: 26px;
-  font-weight: 300 !important;
+  font-weight: 500 !important;
   color: $primary-color;
 }
 
 .nav {
   align-content: center;
   .navbar-item.active {
-      border-bottom: solid 2px $dark-green;
+      border-bottom: solid 2px $golden;
   }
 }
 
@@ -34,12 +34,12 @@
 
 @media screen and (min-width: 961px) {
   .navbar-item:hover {
-    box-shadow: inset 0 -8px 0 $dark-green;
+    box-shadow: inset 0 -8px 0 $golden;
   }
 }
 
 .brand:hover {
-  box-shadow: inset 0 -8px 0 $dark-green;
+  box-shadow: inset 0 -8px 0 $golden;
 }
 
 .menu-icon {
@@ -80,7 +80,7 @@
   }
 
   .navbar-item:hover {
-    border-right: 5px solid $dark-green;
+    border-right: 5px solid $golden;
   }
 
   .menu-icon {
