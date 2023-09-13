@@ -28,6 +28,9 @@ export const DevelopmentPage = () => {
             <div className="project-content">
               <h3>{proj.title}</h3>
               <h6>{proj.type}</h6>
+              <div className="project-date">
+                <p>{proj.dates}</p>
+              </div>
               <div className="project-tech">
                 {proj.tech?.length &&
                   proj.tech.map((t) => (
