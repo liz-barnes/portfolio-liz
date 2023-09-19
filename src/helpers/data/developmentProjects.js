@@ -48,8 +48,8 @@ export const projects = [
     dates: 'Sept 2021 - Feb 2023'
   },
   {
-    title: 'Lyft Inc',
-    type: 'Software Engineer Apprentice & UX/UI Designer',
+    title: 'Lyft',
+    type: 'Software Engineer & UX/UI Designer',
     role: ['Successfully deployed a critical feature, reducing routing errors from 30% to near 0%, improving user interactions and ensuring accuracy and reliability.', `Developed an innovative banner notification system, eliminating user contact during 'Quiet Hours' and enhancing user satisfaction.`, 'Managed the intake of engineering requests for the internal tool, meticulously evaluating priority and ticket utilization based on potential impact and least effort, optimizing task allocation.'],
     tech: ['JavaScript', 'React', 'TypeScript', 'CSS', 'Node.js', 'Redux', 'RESTful APIs', 'UX/UI', 'Figma', 'JIRA', 'Scrum', 'Postman'],
     dates: 'Nov 2020 - Sept 2021'
@@ -81,15 +81,18 @@ export const projects = [
     role: ['Designed with the intention of showcasing my work and creating a platform for connecting with potential job opportunities, collaborations, and services, this site reflects my commitment to clean, user-friendly design.', `Crafted with React and JavaScript, I meticulously designed custom icons and ensured the site's responsiveness across all screen sizes.`, `Here you'll find a curated collection of my projects, learn more about my background, and have the opportunity to get in touch.`],
     dates: '2022 - 2023'
   },
-  // {
-  //   title: `Nashville 'Shine`,
-  //   type: 'UX & Website Design',
-  //   company: `Nashville 'Shine is a Mixed Ultimate Frisbee Club Team.`,
-  //   description: `My objective was to create a website that promotes visibility for 'Shine, increases team and player awareness, showcases personality, and improves online presence with a modern website design.`,
-  //   githubLink: 'https://github.com/liz-barnes/nashville-shine-ultimate',
-  //   websiteLink: 'https://nashvilleshineultimate.netlify.app/',
-  //   tools: [faReact, faFigma, faSquareJs, faSass],
-  // },
+  {
+    title: `Nashville 'Shine`,
+    type: 'Website Design & Development',
+    company: `Nashville 'Shine is a Mixed Ultimate Frisbee Club Team.`,
+    description: `My objective was to create a website that promotes visibility for 'Shine, increases team and player awareness, showcases personality, and improves online presence with a modern website design.`,
+    githubLink: 'https://github.com/liz-barnes/nashville-shine-ultimate',
+    websiteLink: 'https://nashvilleshineultimate.netlify.app/',
+    tools: [faReact, faFigma, faSquareJs, faSass],
+    tech: ['JavaScript', 'React', 'Sass', 'EmailJS', 'React Gallery'],
+    role: [`Designed and developed a modern website to promote visibility for the Nashville 'Shine Ultimate Frisbee team, increase team and player awareness, showcase personality, and improve online presence.`],
+    dates: '2020 - 2021'
+  },
   // {
   //   title: `Adventure Planner`,
   //   type: 'UX & Website Design',
@@ -98,7 +101,6 @@ export const projects = [
   //   githubLink: 'https://github.com/liz-barnes/front-end-capstone',
   //   websiteLink: 'https://adventure-planner-lb.netlify.app',
   //   tools: [faReact, faFigma, faSquareJs, faFontAwesomeAlt, faSass, faCss3, faBootstrap, faJira]
-
   // },
   // {
   //   title: `Vanlife Sanity`,
