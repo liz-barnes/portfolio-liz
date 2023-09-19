@@ -110,4 +110,13 @@
   .brand, .navbar-item, .menu-icon {
     color: $white !important;
   }
+  .nav-active {
+    background-color: $dm-primary-color;
+    border-color: $morning-blue;
+    .navbar-item {
+      color: $terra-cotta !important;
+      border-color: $golden;
+    }
+  }
+
 }
