@@ -109,3 +109,30 @@ h6 {
     padding: 30px 35px;
   }
 }
+
+// DARK MODE
+#dark {
+  .navbar {
+    background-color: $dm-primary-color;
+  }
+  .page {
+    background-color: $dm-primary-color;
+  }
+  h6, li, li::marker {
+    color: $white;
+  }
+  
+  .design-page-container {
+    h6 {
+      color: $golden !important;
+    }
+    .project-button {
+      .arrow-icon {
+        color: $morning-blue;
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+}
