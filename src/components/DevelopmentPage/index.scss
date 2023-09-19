@@ -117,14 +117,14 @@ h6 {
   }
   .page {
     background-color: $dm-primary-color;
-  }
-  h6, li, li::marker {
-    color: $white;
-  }
-  
-  .design-page-container {
     h6 {
-      color: $golden !important;
+      color: $golden;
+    }
+    li, li::marker {
+      color: $white;
+    }
+    .tech-button {
+      color: $dm-primary-color;
     }
     .project-button {
       .arrow-icon {
