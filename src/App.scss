@@ -1,3 +1,5 @@
+@import './styles/index.scss';
+
 .page-container {
   position: relative;
   min-height: 100vh;
@@ -5,4 +7,41 @@
 
 .page {
   padding: 50px 150px 150px 150px;
+}
+
+#dark {
+  .home-page {
+    background-color: $dm-primary-color;
+    .banner {
+      padding: 170px 42% 0px 7%;
+      h1 {
+        color: $terra-cotta;
+        background-color: $dm-primary-color;
+      }
+      h2 {
+        color: $golden;
+        background-color: $dm-primary-color;
+      }
+      p {
+        color: $white;
+        background-color: $dm-primary-color;
+      }
+
+    }
+  }
+
+  #dark {
+@media screen and (max-width: 1000px) {
+    .home-page {
+      .banner {
+        background: none !important;
+        background-color: pink !important;
+        padding-top: 140px !important;
+      }
+    }
+  }
+}
+  .navbar {
+    color: $white !important;
+  }
 }
