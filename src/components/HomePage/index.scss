@@ -53,22 +53,25 @@
     padding-bottom: 50px;
     margin: 0;
   }
+  .button-container {
+    height: 33px;
+    .button {
+      text-decoration: none;
+      background-color: $terra-cotta;
+      border: none;
+      margin: 0px 5px;
+      padding: 10px 15px;
+      border-radius: 25px;
+      color: $white;
+      font-family: $primary-font;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    .button:hover {
+      background-color: $golden;
+    }
+  }
 
-  .button {
-    text-decoration: none;
-    background-color: $terra-cotta;
-    border: none;
-    margin: 0px 5px;
-    padding: 10px 15px;
-    border-radius: 25px;
-    color: $white;
-    font-family: $primary-font;
-    font-weight: 400;
-    font-size: 18px;
-  }
-  .button:hover {
-    background-color: $golden;
-  }
 }
 
 .skills {
