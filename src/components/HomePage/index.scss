@@ -28,10 +28,12 @@
 .banner {
   background: url(../../images/HomePageGraphics.png);
   background-size: cover;
-  height: calc(100vh - 250px);
+  height: calc(100vh - 75px);
   text-align: center;
-  padding: 170px 40% 0px 7%;
   margin-right: 25px;
+  .headline-container {
+  padding: 170px 40% 0px 7%;
+  }
   h1 {
     font-size: 48px;
     font-family: $primary-font;
@@ -71,11 +73,12 @@
       background-color: $golden;
     }
   }
-
+  .switch-container {
+    margin-top: 6%;
+  }
 }
 
 .skills {
-  // height: calc(100vh - 252px);
   background-color: $morning-blue;
   padding: 100px 75px 175px 75px;
   display: flex;
@@ -134,23 +137,29 @@
 
   @media screen and (max-width: 1300px) {
     .banner {
-      padding: 150px 40% 0px 7%;
-      height: calc(100vh - 230px);
+      height: calc(100vh - 75px);
+      .headline-container {
+        padding: 150px 40% 0px 7%;
+        }
     }
   }
   
   @media screen and (max-width: 1150px) {
     .banner {
       margin-right: 0px;
-      padding: 110px 40% 0px 7%;
-      height: calc(100vh - 190px);
+      height: calc(100vh - 75px);
+      .headline-container {
+        padding: 110px 40% 0px 7%
+      }
     }
   }
   @media screen and (max-width: 970px) {
     .banner {
       background: none;
-      padding: 70px 75px 0px 75px;
       margin-top: 0px !important;
+      .headline-container {
+        padding: 70px 75px 0px 75px;
+      }
     }
   }
 }
@@ -217,14 +226,18 @@
 
 @media screen and (max-width: 619px) {
   .banner {
-    padding: 70px 35px 0px 35px;
+    .headline-container {
+      padding: 70px 35px 0px 35px
+    }
   }
 }
 
 @media screen and (max-width: 539px) {
   .banner {
-    padding: 60px 35px 0px 35px;
     height: calc(100vh - 160px);
+    .headline-container{
+      padding: 60px 35px 0px 35px
+    }
     h1 {
       font-size: 38px;
     }
@@ -242,9 +255,6 @@
   }
 }
 
-@media screen and (max-width: 360px) {
-}
-
 @media screen and (max-width: 348px) {
   .banner {
     padding: 60px 10px 0px 10px;
@@ -256,7 +266,9 @@
   .home-page {
     background-color: $dm-primary-color;
     .banner {
-      padding: 170px 42% 0px 7%;
+      .headline-container {
+        padding: 170px 42% 0px 7%
+      }
       h1 {
         color: $terra-cotta;
         background-color: $dm-primary-color;
@@ -281,17 +293,42 @@
         color: $white;
       }
     }
-
   }
-}
-
-#dark {
   @media screen and (max-width: 1000px) {
-      .home-page {
-        .banner {
-          background: none !important;
-          padding: 70px 10% 50px 10%;
+    .home-page {
+      .banner {
+        background: none !important;
+        .headline-container {
+          padding: 70px 75px 0px 75px !important;
         }
       }
     }
   }
+  @media screen and (max-width: 970px) {
+    .banner {
+      margin-top: 0px !important;
+      .headline-container {
+        padding: 70px 75px 0px 75px !important;
+      }
+    }
+  }
+  @media screen and (max-width: 619px) {
+    .banner {
+      .headline-container {
+        padding: 70px 35px 0px 35px !important;
+      }
+    }
+  }
+  @media screen and (max-width: 539px) {
+    .banner {
+      height: calc(100vh - 70px);
+      .headline-container{
+        padding: 60px 35px 0px 35px
+      }
+      .button {
+        font-size: 16px;
+        padding: 8px 15px;
+      }
+    }
+  }
+}
