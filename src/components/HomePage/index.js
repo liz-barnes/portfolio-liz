@@ -6,30 +6,36 @@ import iconBridge from '../../images/Icons/IconBridge.png'
 import { Footer } from '../Footer'
 import { Button } from 'react-bootstrap'
 import resume from '../../images/elizabeth_barnes_resume_.pdf'
+import ToggleSwitch from '../ToggleSwitch'
 
-export const HomePage = () => {
+export const HomePage = ({toggleTheme}) => {
   return (
     <div className="home-page">
       <NavBar />
       <div className="banner">
-        <h1>Hi, I'm Liz</h1>
-        <h2>Software Engineer & Designer</h2>
-        <p>
-          Passionate about UX/UI and dedicated to bridging the gap between
-          product, design, and engineering.
-        </p>
-        <div className="button-container">
-          <Button
-            className="button"
-            href={resume}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Download CV
-          </Button>
-          <Button className="button" href="mailto:embarnes95@gmail.com">
-            Reach Out
-          </Button>
+        <div className='headline-container'>
+          <h1>Hi, I'm Liz</h1>
+          <h2>Software Engineer & Designer</h2>
+          <p>
+            Passionate about UX/UI and dedicated to bridging the gap between
+            product, design, and engineering.
+          </p>
+          <div className="button-container">
+            <Button
+              className="button"
+              href={resume}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Download CV
+            </Button>
+            <Button className="button" href="mailto:embarnes95@gmail.com">
+              Reach Out
+            </Button>
+          </div>
+        </div>
+        <div className='switch-container'>
+            <ToggleSwitch toggleTheme={toggleTheme} />
         </div>
       </div>
       <div className="skills">
