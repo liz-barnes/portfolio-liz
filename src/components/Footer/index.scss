@@ -57,3 +57,17 @@
     margin: 0;
   }
 }
+
+// DARK MODE
+#dark {
+  .socials {
+    background: none;
+    .icon {
+      color: $morning-blue;
+    }
+  }
+  .copyright {
+    color: $morning-blue;
+  }
+
+}
