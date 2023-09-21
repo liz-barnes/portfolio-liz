@@ -3,6 +3,8 @@ import './index.scss'
 import iconDesktop from '../../images/Icons/IconDesktop.png'
 import iconUX from '../../images/Icons/IconUX.png'
 import iconBridge from '../../images/Icons/IconBridge.png'
+import iconSun from '../../images/Icons/IconSunGold.png';
+import iconMoon from '../../images/Icons/IconMoonGold.png';
 import { Footer } from '../Footer'
 import { Button } from 'react-bootstrap'
 import resume from '../../images/elizabeth_barnes_resume_.pdf'
@@ -35,7 +37,9 @@ export const HomePage = ({toggleTheme}) => {
           </div>
         </div>
         <div className='switch-container'>
+            <img className='icon-sun' src={iconSun} alt='sun icon'/>
             <ToggleSwitch toggleTheme={toggleTheme} />
+            <img className='icon-moon' src={iconMoon} alt='moon icon'/>
         </div>
       </div>
       <div className="skills">
