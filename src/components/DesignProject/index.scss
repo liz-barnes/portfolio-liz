@@ -107,3 +107,17 @@
     padding: 83px 20px 225px 20px !important;
   }
 }
+
+// DARK MODE
+
+#dark {
+  .design-project-page {
+    background-color: $dm-primary-color;
+    h6 {
+      color: $golden;
+    }
+    p {
+      color: $white;
+    }
+  }
+}
