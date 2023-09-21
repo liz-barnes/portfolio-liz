@@ -318,6 +318,12 @@
         color: $white;
         background-color: $dm-primary-color;
       }
+      .switch-container {
+        background-color: $dm-primary-color;
+        margin: auto;
+        width: fit-content;
+        margin-top: 50px;
+      }
     }
   }
 
@@ -331,6 +337,8 @@
       }
     }
   }
+
+  // RESPONSIVE -- DARK MODE
   @media screen and (max-width: 1000px) {
     .home-page {
       .banner {
