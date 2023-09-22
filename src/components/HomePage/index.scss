@@ -217,6 +217,23 @@
   }
 }
 
+@media screen and (max-width: 660px) {
+  .home-page {
+    .banner {
+      padding-top: 0px !important;
+      .headline-container {
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+      }
+    }
+  }
+  .skills-card-header {
+    .icon {
+      height: 75px !important;
+    }
+  }
+}
+
 #light {
   @media screen and (max-width: 1300px) {
     .banner {
@@ -245,8 +262,17 @@
       }
     }
   }
- 
+
   @media screen and (max-width: 660px) {
+    .home-page {
+      .banner {
+        padding-top: 0px !important;
+        .headline-container {
+          margin-top: 0px !important;
+          padding-top: 0px !important;
+        }
+      }
+    }
     .skills-card-header {
       .icon {
         height: 75px !important;
@@ -290,7 +316,7 @@
   }
   @media screen and (max-width: 348px) {
     .banner {
-      padding: 60px 10px 0px 10px;
+      padding: 30px 10px 0px 10px;
     }
   }
 }
