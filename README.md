@@ -1,20 +1,18 @@
 # [My Portfolio](https://lizmarieportfolio.netlify.app/)
-> This portfolio website was designed to show case my work and provide a place for others to learn more about me and reach out for job opportunities, services or collaboration.
+> Designed with the intention of showcasing my work and creating a platform for connecting with potential job opportunities, collaborations, and services, this site reflects my commitment to clean, user-friendly design.
 
 ## User experience
-Start on my landing page to learn a bit about me. Travel over to the Development page to check out some of my projects!
-
-## Screenshot
-<img width="1439" alt="portfolio-screenshot" src="https://user-images.githubusercontent.com/65733608/223361786-e26880a4-81f9-4205-92d3-170d017bcd46.png">
+Start on my landing page to learn a bit about me and my passions. Travel over to the Development page to check out some of my projects!
 
 ## How magic was made
-This project was made possible by React, CSS Flexbox, Bootstrap, Javascript, SASS, FontAwesome and Figma.
+This project was made possible by JavaScript, React, CSS Flexbox, Lazy Load, Bootstrap, SCSS, Custom Icons, FontAwesome and Figma.
 
-## Some wireframes
-#### Home View
-![Home View](https://user-images.githubusercontent.com/65733608/225512338-19574f7b-2238-4dcc-8073-b9272fd8d86c.png)
+## Some screenshots
+### Home Page
+<img width="1440" alt="Screen Shot 2023-09-13 at 2 45 42 PM" src="https://github.com/liz-barnes/portfolio-liz/assets/65733608/0593c283-903f-446e-8b0c-747aff7c7c03">
 
+### Skills Section
+<img width="1440" alt="Screen Shot 2023-09-13 at 2 46 37 PM" src="https://github.com/liz-barnes/portfolio-liz/assets/65733608/ecb310c6-3665-4041-9d41-dbc1f6516c7e">
 
-
-#### Development Projects View
-![Development View](https://user-images.githubusercontent.com/65733608/225512343-770e89fa-5aab-4ea8-9024-c3f769bb38f1.png)
+### Development Page
+<img width="1440" alt="Screen Shot 2023-09-13 at 2 47 10 PM" src="https://github.com/liz-barnes/portfolio-liz/assets/65733608/ed9e42aa-4cf6-41a7-907b-9775255e263f">
